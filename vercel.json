@@ -1,0 +1,648 @@
+{
+  "redirects": [
+    { "source": "/pages/digital-gift-card-terms", "destination": "/" },
+    { "source": "/pages/digital-gift-card-balance", "destination": "/" },
+    { "source": "/products/digital-gift-card", "destination": "/collections" },
+    { "source": "/pages/holiday-shop", "destination": "/" },
+    { "source": "/pages/quality-home-page", "destination": "/" },
+    { "source": "/pages/how-it-works", "destination": "/" },
+    { "source": "/pages/orders", "destination": "/account" },
+    {
+      "source": "/pages/referral-terms-of-service",
+      "destination": "/terms-conditions"
+    },
+    { "source": "/pages/covid-19-community-response", "destination": "/" },
+    { "source": "/collections/trials-combos", "destination": "/collections" },
+    { "source": "/collections/trial-sets", "destination": "/collections" },
+    { "source": "/collections/wellness-pro", "destination": "/collections" },
+    { "source": "/collections/traveler", "destination": "/collections" },
+    { "source": "/collections/overachiever", "destination": "/collections" },
+    { "source": "/collections/first-timer", "destination": "/collections" },
+    {
+      "source": "/collections/birthday-collection",
+      "destination": "/collections"
+    },
+    { "source": "/collections/frontpage", "destination": "/collections" },
+    {
+      "source": "/collections/starter-kits",
+      "destination": "/collections/kits-guides"
+    },
+    {
+      "source": "/collections/undefined-beauty-destress-kits",
+      "destination": "/collections"
+    },
+    { "source": "/menstrual-cup", "destination": "/products/menstrual-cup" },
+    {
+      "source": "/products/lubricated-condoms",
+      "destination": "/products/condoms"
+    },
+    {
+      "source": "/collections/lola-product-discounts",
+      "destination": "/collections/member-exclusive"
+    },
+    { "source": "/collections/all", "destination": "/collections" },
+    { "source": "/pages/about-old", "destination": "/about" },
+    { "source": "/pages/lola-quiz", "destination": "/" },
+    { "source": "/pages/trial-sets", "destination": "/collections" },
+    {
+      "source": "/products/ultra-thin-lubricated-condoms-6-month",
+      "destination": "/products/lubricated-condoms-6-month"
+    },
+    {
+      "source": "/products/ultra-thin-lubricated-condoms-3-month",
+      "destination": "/products/lubricated-condoms-3-month"
+    },
+    {
+      "source": "/products/ultra-thin-liners-6-months",
+      "destination": "/products/liners-6-month"
+    },
+    {
+      "source": "/products/ultra-thin-liners-every-3-months",
+      "destination": "/products/liners-3-month"
+    },
+    {
+      "source": "/products/pads-with-wings-6-months",
+      "destination": "/products/pads-6-month"
+    },
+    {
+      "source": "/products/pads-with-wings-3-months",
+      "destination": "/products/pads-3-month"
+    },
+    {
+      "source": "/products/non-applicator-tampons-every-6-months",
+      "destination": "/products/non-applicator-tampons-6-month"
+    },
+    {
+      "source": "/products/non-applicator-tampons-every-3-months",
+      "destination": "/products/non-applicator-tampons-3-month"
+    },
+    {
+      "source": "/products/daily-multivitamin-every-6-months",
+      "destination": "/products/daily-supplement-6-month"
+    },
+    {
+      "source": "/products/daily-multivitamin-every-3-months",
+      "destination": "/products/daily-supplement-3-month"
+    },
+    {
+      "source": "/products/compact-plastic-applicator-tampons-every-6-months",
+      "destination": "/products/applicator-tampons-6-month"
+    },
+    {
+      "source": "/products/compact-plastic-applicator-tampons-3-month",
+      "destination": "/products/applicator-tampons-3-month"
+    },
+    {
+      "source": "/products/cleansing-wipes-every-6-months",
+      "destination": "/products/cleansing-wipes-6-month"
+    },
+    {
+      "source": "/products/cleansing-wipes-every-3-months",
+      "destination": "/products/cleansing-wipes-3-month"
+    },
+    {
+      "source": "/products/cardboard-applicator-tampons-every-6-months",
+      "destination": "/products/cardboard-applicator-tampons-6-month"
+    },
+    {
+      "source": "/products/cardboard-applicator-tampons-every-3-months",
+      "destination": "/products/cardboard-applicator-tampons-3-months"
+    },
+    { "source": "/collections/one-time-order", "destination": "/collections" },
+    {
+      "source": "/products/cardboard-applicator-super-18-count",
+      "destination": "/products/cardboard-applicator-tampons"
+    },
+    {
+      "source": "/products/super-18-count-1",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/products/ultra-thin-28-count",
+      "destination": "/products/liners"
+    },
+    {
+      "source": "/products/daily-1-month",
+      "destination": "/products/daily-supplement"
+    },
+    {
+      "source": "/products/regular-heavy-12-count",
+      "destination": "/products/pads"
+    },
+    { "source": "/products/regular-12-count", "destination": "/products/pads" },
+    { "source": "/products/heavy-12-count", "destination": "/products/pads" },
+    {
+      "source": "/products/non-applicator-super-plus-18-count",
+      "destination": "/products/non-applicator-tampons"
+    },
+    {
+      "source": "/products/non-applicator-super-18-count",
+      "destination": "/products/non-applicator-tampons"
+    },
+    {
+      "source": "/products/non-applicator-regular-18-count",
+      "destination": "/products/non-applicator-tampons"
+    },
+    {
+      "source": "/products/super-18-count",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/products/regular-super-18-count",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/products/regular-18-count",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/products/light-18-count",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/products/cardboard-applicator-regular-super-18-count",
+      "destination": "/products/cardboard-applicator-tampons"
+    },
+    {
+      "source": "/products/cardboard-applicator-regular-18-count",
+      "destination": "/products/cardboard-applicator-tampons"
+    },
+    {
+      "source": "/pages/disclaimer-first15",
+      "destination": "/hello15-disclaimer"
+    },
+    { "source": "/pages/snowflake-home-page", "destination": "/" },
+    {
+      "source": "/collections/tampons-pads-liners",
+      "destination": "/collections/periods"
+    },
+    {
+      "source": "/products/sex-essentials-set",
+      "destination": "/collections/sex"
+    },
+    {
+      "source": "/products/super-compact-applicator-1",
+      "destination": "/products/super-plus-compact-applicator"
+    },
+    {
+      "source": "/products/super-compact-applicator-tampons",
+      "destination": "/products/super-compact-applicator-1"
+    },
+    {
+      "source": "/products/vaginal-wash",
+      "destination": "/products/cleansing-wash"
+    },
+    {
+      "source": "/pages/hello25-disclaimer",
+      "destination": "/hello15-disclaimer"
+    },
+    {
+      "source": "/contact",
+      "destination": "https://help.mylola.com/contact/contact-us-HkTue1onH"
+    },
+    { "source": "/faq", "destination": "https://help.mylola.com/" },
+    {
+      "source": "/firstperiod",
+      "destination": "https://cdn.shopify.com/s/files/1/2568/9396/files/LOLA_FPK_Ebook_Final_191212.pdf?19551"
+    },
+    { "source": "/pages/how-it-works", "destination": "/" },
+    { "source": "/login", "destination": "/account/login" },
+    {
+      "source": "/collections/product-donations/products/pads-donation",
+      "destination": "/products/pads-donation"
+    },
+    {
+      "source": "/collections/product-donations/products/liners-donation",
+      "destination": "/products/liners-donation"
+    },
+    {
+      "source": "/collections/product-donations/products/hand-sanitizer-donation",
+      "destination": "/products/hand-sanitizer-donation"
+    },
+    {
+      "source": "/collections/product-donations/products/wipes-donation",
+      "destination": "/products/wipes-donation"
+    },
+    {
+      "source": "/collections/product-donations/products/condoms-donation",
+      "destination": "/products/condoms-donation"
+    },
+    {
+      "source": "/collections/product-donations/products/tampon-donation",
+      "destination": "/products/tampon-donation"
+    },
+    {
+      "source": "/collections/vaginal-health/products/probiotic-supplement",
+      "destination": "/products/probiotic-supplement"
+    },
+    {
+      "source": "/collections/vaginal-health/products/cleansing-wipes-pouch",
+      "destination": "/cleansing-wipes-pouch"
+    },
+    {
+      "source": "/collections/vaginal-health/products/itch-relief-wipes",
+      "destination": "/products/itch-relief-wipes"
+    },
+    {
+      "source": "/collections/vaginal-health/products/cleansing-wipes",
+      "destination": "/products/cleansing-wipes"
+    },
+    {
+      "source": "/collections/periods/products/applicator-tampons",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/collections/periods/products/cardboard-applicator-tampons",
+      "destination": "/cardboard-applicator-tampons"
+    },
+    {
+      "source": "/collections/periods/products/non-applicator-tampons",
+      "destination": "/products/non-applicator-tampons"
+    },
+    {
+      "source": "/collections/periods/products/menstrual-cup",
+      "destination": "/products/menstrual-cup"
+    },
+    {
+      "source": "/collections/periods/products/pads",
+      "destination": "/products/pads"
+    },
+    {
+      "source": "/collections/periods/products/liners",
+      "destination": "/products/liners"
+    },
+    {
+      "source": "/collections/periods/products/heating-patch",
+      "destination": "/products/heating-patch"
+    },
+    {
+      "source": "/collections/periods/products/essential-oil-blend",
+      "destination": "/products/essential-oil-blend"
+    },
+    {
+      "source": "/collections/periods/products/daily-supplement",
+      "destination": "/products/daily-supplement"
+    },
+    {
+      "source": "/collections/periods/products/cleansing-wipes-pouch",
+      "destination": "/products/cleansing-wipes-pouch"
+    },
+    {
+      "source": "/collections/periods/products/cleansing-wipes",
+      "destination": "/products/cleansing-wipes"
+    },
+    {
+      "source": "/collections/periods/products/first-period-kit",
+      "destination": "/products/first-period-kit"
+    },
+    {
+      "source": "/collections/digital-guides/products/first-period-guide",
+      "destination": "/products/first-period-guide"
+    },
+    {
+      "source": "/collections/digital-guides/products/sexual-wellness-guide",
+      "destination": "/products/sexual-wellness-guide"
+    },
+    {
+      "source": "/collections/trial-sets/products/trial-set-tampons-wipes",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/collections/trial-sets/products/trial-set-tampons-liners",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/collections/cramps/products/heating-patch",
+      "destination": "/products/heating-patch"
+    },
+    {
+      "source": "/collections/cramps/products/daily-supplement",
+      "destination": "/products/daily-supplement"
+    },
+    {
+      "source": "/collections/cramps/products/essential-oil-blend",
+      "destination": "/products/essential-oil-blend"
+    },
+    {
+      "source": "/collections/sex/products/personal-lubricant",
+      "destination": "/products/personal-lubricant"
+    },
+    {
+      "source": "/collections/sex/products/mini-vibrator",
+      "destination": "/products/mini-vibrator"
+    },
+    {
+      "source": "/collections/sex/products/condoms",
+      "destination": "/products/condoms"
+    },
+    {
+      "source": "/collections/sex/products/sexual-wellness-kit",
+      "destination": "/products/sexual-wellness-kit"
+    },
+    {
+      "source": "/collections/popular-sets/products/cup-lube",
+      "destination": "/products/cup-lube"
+    },
+    {
+      "source": "/collections/popular-sets/products/heating-patch-tampons",
+      "destination": "/products/heating-patch-tampons"
+    },
+    {
+      "source": "/collections/popular-sets/products/cup-liners",
+      "destination": "/products/cup-liners"
+    },
+    {
+      "source": "/collections/popular-sets/products/heating-patch-wipes",
+      "destination": "/products/heating-patch-wipes"
+    },
+    {
+      "source": "/collections/popular-sets/products/cup-pads",
+      "destination": "/products/cup-pads"
+    },
+    {
+      "source": "/collections/popular-sets/products/sex-essentials",
+      "destination": "/products/sex-essentials"
+    },
+    {
+      "source": "/collections/popular-sets/products/no-strings-period",
+      "destination": "/products/no-strings-period"
+    },
+    {
+      "source": "/collections/popular-sets/products/period-essentials",
+      "destination": "/products/period-essentials"
+    },
+    {
+      "source": "/collections/popular-sets/products/heating-patch-oil-multivitamin",
+      "destination": "/products/heating-patch-oil-multivitamin"
+    },
+    {
+      "source": "/collections/popular-sets/products/first-period-kit",
+      "destination": "/products/first-period-kit"
+    },
+    {
+      "source": "/collections/popular-sets/products/sexual-wellness-kit",
+      "destination": "/products/sexual-wellness-kit"
+    },
+    {
+      "source": "/collections/popular-sets/products/clean-hygiene-kit",
+      "destination": "/products/clean-hygiene-kit"
+    },
+    {
+      "source": "/collections/popular-sets/products/first-period-guide",
+      "destination": "/products/first-period-guide"
+    },
+    {
+      "source": "/collections/popular-sets/products/sexual-wellness-guide",
+      "destination": "/products/sexual-wellness-guide"
+    },
+    {
+      "source": "/collections/popular-sets/products/light-compact-applicator",
+      "destination": "/products/light-compact-applicator"
+    },
+    {
+      "source": "/collections/popular-sets/products/regular-pads-with-wings",
+      "destination": "/products/regular-pads-with-wings"
+    },
+    {
+      "source": "/collections/popular-sets/products/super-compact-applicator",
+      "destination": "/products/super-compact-applicator"
+    },
+    {
+      "source": "/collections/popular-sets/products/super-plus-compact-applicator",
+      "destination": "/products/super-plus-compact-applicator"
+    },
+    {
+      "source": "/collections/popular-sets/products/regular-compact-applicator",
+      "destination": "/products/regular-compact-applicator"
+    },
+    {
+      "source": "/collections/popular-sets/products/heavy-pads-with-wings",
+      "destination": "/products/heavy-pads-with-wings"
+    },
+    {
+      "source": "/collections/popular-sets/products/ultra-thin-liners",
+      "destination": "/products/ultra-thin-liners"
+    },
+    {
+      "source": "/collections/popular-sets/products/ultra-thin-latex-condoms",
+      "destination": "/products/ultra-thin-latex-condoms"
+    },
+    {
+      "source": "/collections/popular-sets/products/cleansing-wipes-value-pack",
+      "destination": "/products/cleansing-wipes-value-pack"
+    },
+    {
+      "source": "/collections/extras/products/lola-pouch",
+      "destination": "/products/lola-pouch"
+    },
+    {
+      "source": "/collections/extras/products/hand-sanitizer",
+      "destination": "/products/hand-sanitizer"
+    },
+    {
+      "source": "/collections/extras/products/flow-water-bottle",
+      "destination": "/products/flow-water-bottle"
+    },
+    {
+      "source": "/collections/extras/products/happy-cramper-beanie",
+      "destination": "/products/happy-cramper-beanie"
+    },
+    {
+      "source": "/collections/extras/products/time-of-month-notebook",
+      "destination": "/products/time-of-month-notebook"
+    },
+    {
+      "source": "/collections/extras/products/party-pin",
+      "destination": "/products/party-pin"
+    },
+    {
+      "source": "/collections/extras/products/digital-gift-card",
+      "destination": "/collections"
+    },
+    {
+      "source": "/collections/hygiene-essentials/products/clean-hygiene-kit",
+      "destination": "/products/clean-hygiene-kit"
+    },
+    {
+      "source": "/collections/hygiene-essentials/products/hand-sanitizer",
+      "destination": "/products/hand-sanitizer"
+    },
+    {
+      "source": "/collections/hygiene-essentials/products/cleansing-wipes-pouch",
+      "destination": "/products/cleansing-wipes-pouch"
+    },
+    {
+      "source": "/collections/hygiene-essentials/products/cleansing-wipes",
+      "destination": "/products/cleansing-wipes"
+    },
+    {
+      "source": "/collections/bundles/products/cup-lube",
+      "destination": "/products/cup-lube"
+    },
+    {
+      "source": "/collections/bundles/products/heating-patch-tampons",
+      "destination": "/heating-patch-tampons"
+    },
+    {
+      "source": "/collections/bundles/products/cup-pads",
+      "destination": "/products/cup-pads"
+    },
+    {
+      "source": "/collections/bundles/products/heating-patch-wipes",
+      "destination": "/products/heating-patch-wipes"
+    },
+    {
+      "source": "/collections/bundles/products/cup-liners",
+      "destination": "/products/cup-liners"
+    },
+    {
+      "source": "/collections/bundles/products/sex-essentials",
+      "destination": "/products/sex-essentials"
+    },
+    {
+      "source": "/collections/bundles/products/no-strings-period",
+      "destination": "/products/no-strings-period"
+    },
+    {
+      "source": "/collections/bundles/products/period-essentials",
+      "destination": "/products/period-essentials"
+    },
+    {
+      "source": "/collections/bundles/products/heating-patch-oil-multivitamin",
+      "destination": "/products/heating-patch-oil-multivitamin"
+    },
+    {
+      "source": "/collections/bundles/products/trial-set-tampons-liners",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/collections/bundles/products/trial-set-tampons-wipes",
+      "destination": "/products/applicator-tampons"
+    },
+    {
+      "source": "/collections/kits-guides/products/first-period-kit",
+      "destination": "/products/first-period-kit"
+    },
+    {
+      "source": "/collections/kits-guides/products/sexual-wellness-kit",
+      "destination": "/products/sexual-wellness-kit"
+    },
+    {
+      "source": "/collections/kits-guides/products/clean-hygiene-kit",
+      "destination": "/products/clean-hygiene-kit"
+    },
+    {
+      "source": "/collections/kits-guides/products/first-period-guide",
+      "destination": "/products/first-period-guide"
+    },
+    {
+      "source": "/collections/kits-guides/products/sexual-wellness-guide",
+      "destination": "/products/sexual-wellness-guide"
+    },
+    {
+      "source": "/collections/value-packs/products/light-compact-applicator",
+      "destination": "/products/light-compact-applicator"
+    },
+    {
+      "source": "/collections/value-packs/products/regular-compact-applicator",
+      "destination": "/products/regular-compact-applicator"
+    },
+    {
+      "source": "/collections/value-packs/products/super-compact-applicator",
+      "destination": "/products/super-compact-applicator"
+    },
+    {
+      "source": "/collections/value-packs/products/super-plus-compact-applicator",
+      "destination": "/products/super-plus-compact-applicator"
+    },
+    {
+      "source": "/collections/value-packs/products/regular-pads-with-wings",
+      "destination": "/products/regular-pads-with-wings"
+    },
+    {
+      "source": "/collections/value-packs/products/heavy-pads-with-wings",
+      "destination": "/products/heavy-pads-with-wings"
+    },
+    {
+      "source": "/collections/value-packs/products/ultra-thin-liners",
+      "destination": "/products/ultra-thin-liners"
+    },
+    {
+      "source": "/collections/value-packs/products/cleansing-wipes-value-pack",
+      "destination": "/products/cleansing-wipes-value-pack"
+    },
+    {
+      "source": "/collections/value-packs/products/ultra-thin-latex-condoms",
+      "destination": "/products/ultra-thin-latex-condoms"
+    },
+    { "source": "/latest", "destination": "/collections/latest" },
+    { "source": "/extra", "destination": "/collections/extra" },
+    { "source": "/new", "destination": "/collections/new-essentials" },
+    { "source": "/perk", "destination": "/collections/perk" },
+    { "source": "/pages/about", "destination": "/about" },
+    {
+      "source": "/pages/discount-terms-and-conditions",
+      "destination": "/discount-terms-and-conditions"
+    },
+    { "source": "/pages/givingback-v1", "destination": "/giveback" },
+    { "source": "/pages/guarantee", "destination": "/guarantee" },
+    {
+      "source": "/pages/hello15-disclaimer",
+      "destination": "/hello15-disclaimer"
+    },
+    { "source": "/pages/jobs", "destination": "/jobs" },
+    { "source": "/pages/lola-reviews", "destination": "/lola-reviews" },
+    { "source": "/pages/my-rewards", "destination": "/my-rewards" },
+    {
+      "source": "/pages/period-support-group",
+      "destination": "/period-support-group"
+    },
+    { "source": "/pages/privacy", "destination": "/privacy" },
+    { "source": "/pages/refer", "destination": "/refer" },
+    { "source": "/pages/rewards", "destination": "/rewards" },
+    { "source": "/pages/sitemap", "destination": "/sitemap" },
+    { "source": "/pages/subscriptions", "destination": "/subscriptions" },
+    { "source": "/pages/terms-conditions", "destination": "/terms-conditions" },
+    {
+      "source": "/pages/how-to-insert-menstrual-cup",
+      "destination": "/how-to-insert-menstrual-cup"
+    },
+    {
+      "source": "/pages/personal-massager-warranty",
+      "destination": "/personal-massager-warranty"
+    },
+    {
+      "source": "/emailsignup",
+      "destination": "https://lola.attn.tv/p/eFr/landing-page"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Credentials", "value": "true" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=*"
+        },
+        { "key": "Referrer-Policy", "value": "strict-origin" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'none'; media-src https: data:; style-src 'unsafe-inline' https:; img-src https: data:; script-src 'unsafe-inline' 'unsafe-eval' https:; child-src 'self'; font-src https: data:; manifest-src 'self'; connect-src https: wss:; frame-src https://admin.rechargeapps.com/ https://boards.greenhouse.io/ https://vars.hotjar.com/ https://www.youtube.com/ https://form.typeform.com/ https://lola.attn.tv/ https://creatives.attn.tv/"
+        }
+      ]
+    }
+  ]
+}

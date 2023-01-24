@@ -1,0 +1,8 @@
+@mixin basic-text($small: 0.8125rem, $large: 1rem) {
+  font-size: $small;
+  letter-spacing: 0.0125em;
+
+  @media (min-width: $large-screen) {
+    font-size: $large;
+  }
+}

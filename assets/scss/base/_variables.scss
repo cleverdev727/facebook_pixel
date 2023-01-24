@@ -1,0 +1,146 @@
+// sass-lint:disable-block max-line-length
+
+// Typography
+$base-font-family: "Apercu Pro", Calibri, sans-serif;
+
+// Line Height
+$base-line-height: 1.45;
+$small-line-height: 1.2;
+$large-line-height: 1.625;
+
+// Font Sizes
+$large-font-size: 1.25rem;
+$x-large-font-size: 1.5rem;
+$base-heading-font-size: 56px;
+$large-heading-font-size: 3rem;
+$x-large-heading-font-size: 4rem;
+$heading-font-size: 1.875rem;
+$small-font-size: 0.8125rem;
+$normal-font-size: 0.875rem;
+$tiny-font-size: 0.75rem;
+$label-font-size: $tiny-font-size;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing * 0.5;
+$base-letter-spacing: 0.14em;
+$gutter--xlarge: 60px;
+$gutter--large: 43px;
+$gutter--base: 28px;
+$gutter--small: 24px;
+$small-letter-spacing: 0.04em;
+$link-padding-room-for-focus: 5px;
+$header-divider-color: #b8b8b8;
+
+$app-header-height: 62px;
+$app-header-height--mobile: 60px;
+$app-banner-height: 40px;
+$app-header-with-banner-height: $app-header-height + $app-banner-height;
+$app-header-with-banner-height--mobile: $app-header-height--mobile +
+  $app-banner-height;
+$app-logo-width: 128px;
+$container-width: 1280px;
+$container-width--skinny: 1062px;
+$cart-column-min-width: 112px;
+$base-form-max-width: 40rem;
+$flickity-dot-size: 7px;
+$flickity-prev-next-button-size: 60px;
+$large-form-max-width: 940px;
+$mobile-nav-height: calc(100vh - #{$app-header-with-banner-height--mobile});
+
+// Colors
+$blue: #6d8cb0;
+$hero-blue: #92bbd9;
+$dark-blue: #4e6282;
+$light-blue: #9eb8d5;
+$ultra-light-blue: #e2ebf2;
+$dark-gray: #676564;
+$medium-gray: #b8b8b8;
+$light-gray: #f8f8f8;
+$grey: #dcdcdc;
+
+$dark-brown: #514945;
+$light-brown: #999391;
+$darker-brown: #49403c;
+$light-terracotta: #f8f6f2;
+$terracotta: #c88d75;
+$terracotta--darkened: #ba7056;
+$off-white: tint($light-terracotta, 40%);
+
+// Font Colors
+$base-font-color: $dark-brown;
+$action-color: $dark-brown;
+$action-color-strong: $dark-blue;
+$action-color-alt: $dark-blue;
+
+// Assortment-colors
+$assortment-color-lights: $ultra-light-blue;
+$assortment-color-regulars: $light-blue;
+$assortment-color-supers: $blue;
+$assortment-color-supers-fill: $dark-blue;
+
+// Prekit assortment colors
+$regular-light-blue: #d2dfea;
+$regular-blue: #9db9d6;
+$super-blue: #6e8db1;
+$super-plus-blue: #4e6282;
+$day-blue: #abc9cc;
+$night-blue: #759ba4;
+
+// Border
+$base-border-color: $medium-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$base-background-color-mobile-opacity: rgba(81, 73, 69, 0.4);
+$base-background-color-terracota-light: #f7eeea;
+$base-background-color-alt: $light-gray;
+$secondary-background-color: $light-terracotta;
+$flash-background-color: $blue;
+
+// Focus
+$focus-outline-color: $terracotta;
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Global Media Query Sizes
+$tiny-screen: 360px;
+$small-screen: 420px;
+$medium-screen: 600px;
+$tablet-screen: 768px;
+$large-screen: 960px;
+$tablet-landscape: 1024px;
+$extra-large-screen: 1200px;
+$retina-screen: 1440px;
+$ultra-screen: 1600px;
+$app-navigation-xlarge-breakpoint: 1050px;
+$app-navigation-breakpoint: 925px;
+$account-width--desktop: 960px;
+$cart-breakpoint--large: 850px;
+$cart-breakpoint--small: 500px;
+$product-breakpoint--xlarge: 1400px;
+$product-breakpoint--large: 1050px;
+$product-breakpoint--small: 620px;
+$app-navigation-breakpoint-small: 480px;
+$app-navigation-breakpoint-tablet: 1024px;
+
+// Z-index
+$base-z-index: 0;
+$z-index-base-content: 1;
+$z-index-top-layer-content: 2;
+$z-index-loading-icon: 5;
+$z-index-overlay-content: 9;
+$z-index-app-footer: 20;
+$z-index-app-header: 500;
+$z-index-mobile-navigation: $z-index-app-header;
+$z-index-broadcast-header-link: 35;
+$z-index-email-capture: 40;
+
+$bv3-rec-breakpoint: 1024px;

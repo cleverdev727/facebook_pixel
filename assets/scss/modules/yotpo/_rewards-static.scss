@@ -1,0 +1,46 @@
+.yotpo-refer-friend-static-module {
+  margin-top: 61px;
+  padding: 65px 0;
+
+  .cta {
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+  }
+
+  .yotpo {
+    &-background {
+      background-color: none !important;
+    }
+
+    &-widget-visual-redemption-widget {
+
+      .yotpo-tile-box {
+        padding: 0 !important;
+      }
+    }
+
+    &-info {
+      .yotpo-headline {
+        font: 36px/45px "Apercu Medium" !important;
+        margin-bottom: 30px;
+      }
+
+      .yotpo-description {
+        font: 16px/20px "Apercu Pro" !important;
+        width: 300px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .yotpo-rule {
+        border: none !important;
+        font: bold 16px/20px "Apercu Pro" !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@mixin max-width-container($max-width: $container-width) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-width;
+  width: calc(100% - #{$gutter--base * 2});
+
+  @media (min-width: $large-screen) {
+    width: calc(100% - #{$gutter--large * 2});
+  }
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.container {
+  width: 100%;
+
+  @media screen and (min-width: $tiny-screen) {
+    max-width: calc(100% - 30px);
+  }
+
+  @media screen and (min-width: $medium-screen) {
+    max-width: calc(100% - 40px);
+  }
+
+  @media screen and (min-width: $tablet-screen) {
+    max-width: calc(100% - 80px);
+  }
+
+  @media screen and (min-width: $retina-screen) {
+    max-width: $extra-large-screen;
+  }
+
+  @media screen and (min-width: $ultra-screen) {
+    max-width: $retina-screen;
+  }
+}

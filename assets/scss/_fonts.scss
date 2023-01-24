@@ -1,0 +1,37 @@
+$font-url: "https://cdn.shopify.com/s/files/1/2568/9396/t/2/assets/";
+
+@font-face {
+  font-family: "Apercu Pro";
+  src: url("#{$font-url}apercu-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Apercu Pro";
+  src: url("#{$font-url}apercu-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Apercu Pro";
+  src: url("#{$font-url}apercu-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Apercu Light";
+  src: url("#{$font-url}apercu-light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Apercu Medium";
+  src: url("https://cdn.shopify.com/s/files/1/2660/3696/files/Apercu-Medium.woff?539592") format("woff");
+  font-display: swap;
+}

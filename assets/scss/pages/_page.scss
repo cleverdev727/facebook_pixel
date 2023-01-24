@@ -1,0 +1,179 @@
+/*! purgecss start ignore */
+// css for html long-text content pages
+// e.g privacy, terms-and-conditions
+.section__legal {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  max-width: 50rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  .g-container {
+    margin-bottom: 4rem;
+  }
+
+  .tsi {
+    font-style: italic;
+  }
+
+  .tdu {
+    text-decoration: underline;
+  }
+
+  .tdlt {
+    text-decoration: line-through;
+  }
+
+  .tac {
+    text-align: center;
+  }
+
+  .ttu {
+    text-transform: uppercase;
+  }
+
+  h3,
+  .h3 {
+    font-family: 'Apercu Pro Regular', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 1.875rem;
+  }
+
+  h4,
+  h5,
+  h6,
+  .h4 {
+    font-family: 'Apercu Pro Regular', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  ul.default-ul,
+  ol.default-ul {
+    list-style-type: disc;
+    margin-bottom: 1.25rem;
+    padding-left: 0.625rem;
+  }
+  ul.default-ul.inner-ul,
+  ol.default-ul.inner-ul {
+    list-style-type: circle;
+  }
+  ul.default-ol,
+  ol.default-ol {
+    list-style-type: decimal;
+    margin-bottom: 1.25rem;
+    padding-left: 0.625rem;
+  }
+  ul.alpha-ol,
+  ol.alpha-ol {
+    list-style-type: lower-alpha;
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  ul.roman-ol,
+  ol.roman-ol {
+    list-style-type: lower-roman;
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  ul.inline li,
+  ol.inline li {
+    display: inline-block;
+  }
+
+  ol.lower-alpha-ol {
+    counter-reset: list;
+  }
+  ol.lower-alpha-ol > li {
+    list-style: none;
+    margin-left: 30px;
+  }
+  ol.lower-alpha-ol > li:before {
+    content: counter(list, lower-alpha) ') ';
+    counter-increment: list;
+  }
+
+  dl {
+    margin-bottom: 1.25rem;
+  }
+  dl dt {
+    font-weight: bold;
+    margin-top: 1.25rem;
+  }
+  dl dd {
+    margin: 0;
+  }
+
+  .mbf {
+    margin-bottom: 0;
+  }
+
+  .mbxs {
+    margin-bottom: 0.3125rem;
+  }
+
+  .mbs {
+    margin-bottom: 0.625rem;
+  }
+
+  .mbm {
+    margin-bottom: 1.25rem;
+  }
+
+  .mbl {
+    margin-bottom: 2.5rem;
+  }
+
+  .mbxl {
+    margin-bottom: 3.75rem;
+  }
+
+  .mlf {
+    margin-left: 0;
+  }
+
+  .mlxs {
+    margin-left: 0.3125rem;
+  }
+
+  .mls {
+    margin-left: 0.625rem;
+  }
+
+  .mlm {
+    margin-left: 1.25rem;
+  }
+
+  .mll {
+    margin-left: 2.5rem;
+  }
+
+  .mrf {
+    margin-right: 0;
+  }
+
+  .mrxs {
+    margin-right: 0.3125rem;
+  }
+
+  .mrs {
+    margin-right: 0.625rem;
+  }
+
+  .mrm {
+    margin-right: 1.25rem;
+  }
+
+  .mrl {
+    margin-right: 2.5rem;
+  }
+}
+/*! purgecss end ignore */

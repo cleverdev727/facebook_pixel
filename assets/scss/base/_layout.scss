@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  &.nav-open {
+    overflow-y: hidden;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: $app-header-height;
+  overflow-wrap: break-word;
+
+  @media (max-width: $app-navigation-breakpoint) {
+    padding-top: $app-header-height--mobile;
+
+    &.body--fixed {
+      position: fixed;
+    }
+  }
+
+  .main-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 31;
+    background-color: rgba(128, 128, 128, 0.5);
+  }
+}
+
+// Layout modifiers
+.i-block {
+  display: inline-block !important;
+}
+
+.h-auto {
+  height: auto !important;
+}

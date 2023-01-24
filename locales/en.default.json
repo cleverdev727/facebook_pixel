@@ -1,0 +1,983 @@
+{
+  "general": {
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "404": {
+      "title": "404 Page Not Found",
+      "subtext_html": "The page you requested does not exist. Click <a href=\"/collections/\">here</a> to continue&nbsp;shopping."
+    },
+    "password_page": {
+      "opening_soon": "Opening soon",
+      "spread_the_word": "Spread the word",
+      "login_form_heading": "Enter store using password",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_heading": "Find out when we open",
+      "signup_form_email_label": "Email",
+      "signup_form_email_placeholder": "Your email",
+      "signup_form_submit": "Submit",
+      "signup_form_success": "We will send you an email right before we open!",
+      "admin_link_html": "Are you the store owner? <a href=\"/admin\">Log in here</a>",
+      "password_link": "Enter using password",
+      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+    },
+    "social": {
+      "share_on_facebook": "Share",
+      "share_on_twitter": "Tweet",
+      "share_on_pinterest": "Pin it",
+      "alt_text": {
+        "share_on_facebook": "Share on Facebook",
+        "share_on_twitter": "Tweet on Twitter",
+        "share_on_pinterest": "Pin on Pinterest"
+      }
+    },
+    "search": {
+      "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
+      "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
+      "title": "Search for products on our site",
+      "placeholder": "Search our store",
+      "submit": "Search"
+    },
+    "cramp_care": {
+      "heading": "Cramp Care",
+      "body": "Our newest line features two holistic, on-the-go solutions to help relieve menstrual cramps from the inside out.",
+      "call_to_action_1": "Shop essential oil blend",
+      "call_to_action_2": "Shop daily supplement"
+    }
+  },
+  "blogs": {
+    "article": {
+      "author_on_date_html": "Posted by {{ author }} on {{ date }}",
+      "comment_meta_html": "{{ author }} on {{ date }}",
+      "read_more": "Read more"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "general": {
+      "categories": "Categories"
+    }
+  },
+  "cart": {
+    "general": {
+      "edit": "Edit",
+      "remove": "Remove",
+      "note": "Special instructions for seller",
+      "subtotal": "Subtotal",
+      "total": "Today's total:",
+      "shipping_at_checkout": "Free shipping",
+      "update": "Update cart",
+      "checkout": "Continue to checkout",
+      "empty_title": "Looks like your cart is empty",
+      "empty_description": "Pick a product to learn more.",
+      "cookies_required": "Enable cookies to use the shopping cart",
+      "survey_title": "How did you first hear about Lola?",
+      "item_quantity": "Item quantity",
+      "recurring_delivery_html": "You will be charged {{amount}} every {{frequency_in_words}}.<br> Skip, cancel or modify at any time.",
+      "savings": "You're saving",
+      "one_time_purchase": "One-time"
+    },
+    "sections": {
+      "subscription": "Subscriptions",
+      "one_time": "One-time purchases"
+    },
+    "cta": {
+      "add_to_subscription_html": "You are creating a new subscription. To edit your existing subscription go to&nbsp;<a class='add-to-subscription__link' data-mixpanel-user-action='Edit existing subscription' href='/tools/recurring/portal/{{customer_string}}/subscriptions'>My&nbsp;Account</a>."
+    },
+    "frequency_in_words": {
+      "days": {
+        "one": "{{count}} day",
+        "other": "{{count}} days"
+      },
+      "months": {
+        "one": "{{count}} month",
+        "other": "{{count}} months"
+      },
+      "weeks": {
+        "one": "{{count}} week",
+        "other": "{{count}} weeks"
+      }
+    },
+    "label": {
+      "price": "Unit price",
+      "quantity": "Quantity",
+      "total": "Product total",
+      "discounted_price": "Discounted price",
+      "original_price": "Original price"
+    },
+    "survey": {
+      "select_an_answer": "Select an answer",
+      "outdoor_advertisements": "Outdoor advertisements (e.g. billboards, subway ads, bus stop ads, etc.)",
+      "social_media_ad": "Social Media Ad",
+      "internet_search_on_google_yahoo_etc": "Internet search on Google, Yahoo, etc.",
+      "podcast_ad": "Podcast ad",
+      "digital_or_offline_radio_pandora_sirius_etc": "Digital or Offline Radio (Pandora, Sirius, etc.)",
+      "friend": "Friend/Word of mouth",
+      "mailer_sent_to_my_house": "Mailer sent to my house",
+      "press": "Press/News article",
+      "other_please_specify": "Other (please specify)",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "pinterest": "Pinterest",
+      "digital": "Digital",
+      "offline": "Offline"
+    }
+  },
+  "collections": {
+    "periods": {
+      "title_1": "Periods",
+      "title_2": "Ever wondered what’s in your feminine care?",
+      "description": "Get peace of mind with tampons, pads, and liners made with organic cotton - meaning no synthetic fibers, fragrances, or dyes. Pair your custom assortment with our cramp busting products to help soothe your worst PMS symptoms."
+    },
+    "sex": {
+      "title_1": "Sex",
+      "title_2": "Why ruin the moment? Do what comes naturally",
+      "description": "A healthy, safe, and fun sex life starts with products you can trust to be good to your vagina and even better in the bedroom. Our gynecologist-approved line provides the sensation and reliability you (and your partner) deserve, without irritating additives or mystery ingredients."
+    },
+    "general": {
+      "no_matches": "Sorry, there are no products in this collection",
+      "link_title": "Browse our {{ title }} collection"
+    },
+    "carousel": {
+      "title": "Build your subscription"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone number",
+      "message": "Message",
+      "send": "Send",
+      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "My account",
+      "navigation": {
+        "rewards": "Rewards",
+        "orders": "Orders",
+        "subscriptions": "Subscriptions & Orders",
+        "account_information": "Settings",
+        "addresses": "Addresses"
+      }
+    },
+    "activate_account": {
+      "title": "Activate account",
+      "subtext": "Create your password to activate your account.",
+      "password": "Password",
+      "password_confirm": "Confirm password",
+      "submit": "Activate account",
+      "cancel": "Decline invitation"
+    },
+    "addresses": {
+      "title": "Your addresses",
+      "default": "Default",
+      "add_new": "Add a new address",
+      "close_new": "Close",
+      "edit_address": "Edit address",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "company": "Company",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "country": "Country: {{ country }}",
+      "state": "State",
+      "zip": "Postal/Zip code",
+      "phone": "Phone",
+      "optional": "optional",
+      "set_default": "Set as default address",
+      "add": "Add address",
+      "update": "Update address",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "delete_confirm": "Are you sure you wish to delete this address?"
+    },
+    "login": {
+      "title": "Welcome back!",
+      "email": "Email",
+      "password": "Password",
+      "forgot_password": "Forgot your password?",
+      "sign_in": "Next",
+      "guest_title": "Continue as a guest",
+      "guest_continue": "Continue"
+    },
+    "orders": {
+      "title": "Order history",
+      "order_number": "Order Number",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
+      "fulfillment_processing": "Processing",
+      "total": "Total",
+      "none": "You haven't placed any orders yet."
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "date": "Placed on {{ date }}",
+      "cancelled": "Order Cancelled on {{ date }}",
+      "cancelled_reason": "Reason: {{ reason }}",
+      "billing_address": "Billing address",
+      "payment_status": "Payment status",
+      "shipping_address": "Shipping address",
+      "fulfillment_status": "Fulfillment status",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "product": "Product",
+      "sku": "SKU",
+      "price": "Unit price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "product_total": "Product total",
+      "fulfilled_at": "Date fulfilled",
+      "track_shipment": "Track shipment",
+      "tracking_url": "Tracking link",
+      "tracking_company": "Carrier",
+      "tracking_number": "Tracking number",
+      "subtotal": "Subtotal"
+    },
+    "recover_password": {
+      "title": "Reset your password",
+      "email": "Email",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "subtext_html": "We will send you an email to reset your password.<br><br>If you don't receive an email, please contact us at <a href=\"mailto:help@mylola.com?subject=Lola password recovery\">help@mylola.com</a> and we will make sure it is sent.",
+      "success": "We've sent you an email with a link to update your password."
+    },
+    "reset_password": {
+      "title": "Reset account password",
+      "subtext": "Enter a new password for {{ email }}",
+      "password": "New password",
+      "password_confirm": "Confirm password",
+      "submit": "Reset password"
+    },
+    "register": {
+      "title": "Welcome to LOLA!",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Next",
+      "legal_html": "By clicking NEXT you agree to the LOLA <a href=\"/pages/terms-conditions\">Terms of Service</a>."
+    }
+  },
+  "index": {
+    "hero_title": "We’re LOLA — reproductive care for women, by women",
+    "hero_subtitle": "We’ve got you covered with trusted period and sexual health products delivered to your&nbsp;door.",
+    "hero_cta": "Shop periods and sex",
+    "section_1_text_1": "“If we care about the ingredients in everything from our food to our face cream, why should our feminine care and sexual health products be any&nbsp;different?”",
+    "section_1_text_2": "Jordana and Alex, Founders",
+    "section_2_text": "You know your body best, so we make it easy to tailor your subscription with the Period and Sex products you need.",
+    "section_2_cta": "Learn about subscriptions",
+    "section_3_heading_1": "New! Sex by LOLA",
+    "section_3_heading_2": "Gynecologist-approved sexual health products designed with a&nbsp;woman’s needs in mind.",
+    "section_3_text_1": "Lubricated condoms — Starting at $10",
+    "section_3_text_2": "Cleansing wipes — Starting at $10",
+    "section_3_text_3": "Personal lubricant — Starting at $13",
+    "section_3_cta": "Shop sex"
+  },
+  "index_variant": {
+    "hero_title_html": "Tampons&nbsp;and&nbsp;pads&nbsp<br>for&nbsp;women,&nbsp;by&nbsp;women",
+    "hero_subtitle": "We’ve got you covered with trusted period and sexual health products delivered to your&nbsp;door.",
+    "hero_cta": "Get Started",
+    "footer_hook": "Ready to try LOLA?",
+    "as_seen_in": "As seen in",
+    "abtest_hero_title": "Tampons you can trust",
+    "abtest_hero_subtitle": "Shipped directly to your door",
+    "abtest_hero_cta": "Build your box today",
+    "section_1_text_1": "“If we care about the ingredients in everything from our food to our face cream, why should our feminine care and sexual health products be any&nbsp;different?”",
+    "section_1_text_2": "Jordana and Alex, Founders",
+    "section_2_text": "You know your body best, so we make it easy to tailor your subscription with the Period and Sex products you need.",
+    "section_2_cta": "Learn about subscriptions",
+    "section_3_heading_1": "New! Sex by LOLA",
+    "section_3_heading_2": "Gynecologist-approved sexual health products designed with a&nbsp;woman’s needs in mind.",
+    "section_3_text_1": "Lubricated condoms — Starting at $10",
+    "section_3_text_2": "Cleansing wipes — Starting at $10",
+    "section_3_text_3": "Personal lubricant — Starting at $13",
+    "section_3_cta": "Shop sex",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "01_question": "How do subscriptions work?",
+      "01_answer_html": "<p>Easy! Start by choosing the assortment of products you want and how often you want to receive them, either every 4 or 8 weeks. Then, enter your shipping and billing info and voila, A better month awaits you!</p>",
+      "02_question": "Can I modify at any time?",
+      "02_answer_html": "<p>You can skip any product in your subscription up until the day before it is scheduled to renew. We will send a reminder email 2 days before your order is set to renew so you can make any necessary changes.</p><p>While we hate to see you go, you can cancel at any time before your subscription's renewal date. Subscriptions are handled on a per-product basis, so cancelling your subscription is as easy as cancelling any products products you are subscribed to. This makes it easy for you to modify your subscription at any time.</p>",
+      "03_question": "What ingredients are LOLA tampons made with?",
+      "03_answer_html": "<p>Our tampons are made with only 1 ingredient: 100% organic cotton. No toxins, dyes, or synthetic fibers!</p>"
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "My cart",
+      "empty": "Get started",
+      "items_count": {
+        "one": "item",
+        "other": "items"
+      }
+    },
+    "products": "Products",
+    "customer": {
+      "account": "Hi, {{ first_name }}",
+      "logged_in_as_html": "Logged in as {{ first_name }}",
+      "log_out": "Log out",
+      "log_in": "Account",
+      "help": "Help",
+      "create_account": "Create account"
+    },
+    "footer": {
+      "support_header": "Support",
+      "community_header": "Community",
+      "about_header": "About",
+      "contact_header": "Stay in touch",
+      "email_submit": "Go natural",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "copyright": "All rights reserved.",
+      "sitemap": "Site Map"
+    }
+  },
+  "products": {
+    "collections": {
+      "bundles": "Play favorites: Shop our best-selling bundles!",
+      "cramps": "Pair your custom assortment with our cramp busting products to help soothe your worst PMS symptoms.",
+      "periods": "Get peace of mind with tampons, pads, and liners made with organic cotton - meaning no synthetic fibers, fragrances, or dyes.",
+      "sex": "Our gynecologist-approved line provides the sensation and reliability you (and your partner) deserve, without irritating additives or mystery ingredients.",
+      "popular-sets-all": "Play favorites: Shop our best-selling sets!",
+      "trials-combos": "Play favorites: Shop our best-selling Trials + Combos!"
+    },
+    "product": {
+      "customize_your_box": "Customize your box",
+      "or_customize": "or",
+      "regular_price": "Regular price",
+      "learn_more": "Shop now",
+      "sold_out": "Out of stock",
+      "unavailable": "Unavailable",
+      "guarantee": "Satisfaction guaranteed",
+      "shipping": "Free shipping",
+      "cancellation": "Cancel anytime",
+      "on_sale": "On sale",
+      "on_sale_from_html": "On sale from {{ price }}",
+      "from_text_html": "From {{ price }}",
+      "load_more": "Load more",
+      "container": {
+        "box": {
+          "one": "{{ count }} box",
+          "other": "{{ count }} boxes"
+        },
+        "bottle": {
+          "one": "{{ count }} bottle",
+          "other": "{{ count }} bottles"
+        },
+        "kit": {
+          "one": "{{ count }} kit",
+          "other": "{{ count }} kits"
+        }
+      },
+      "quantity": "Quantity",
+      "add_to_cart": "Add to cart",
+      "update_cart": "Update cart",
+      "recommended_products_title": "You may also like",
+      "tabs": {
+        "features": {
+          "title": "Features"
+        },
+        "ingredients": {
+          "title": "Ingredients",
+          "contains": "Contains",
+          "does_not_contain_html": "Does <em class=\"label-heading__em\">Not</em> Contain"
+        },
+        "supplement_facts": {
+          "title": "Features"
+        },
+        "how_to_use": {
+          "title": "How To Use"
+        }
+      },
+      "testimonials_title": "#TryLOLA testimonials"
+    },
+    "swk": {
+      "guide_cta": "Download the guide"
+    },
+    "skus": {
+      "RPOC": "Regular",
+      "HPOC": "Heavy",
+      "DPOC": "Day",
+      "DPOCB": "Day",
+      "LTPOT": "Light",
+      "LTPA": "Light",
+      "NPOC": "Night",
+      "NPOCB": "Night",
+      "PTNOT": "Super+",
+      "PTPOT": "Super+",
+      "RCPT": "Regular",
+      "RTNOT": "Regular",
+      "RTPOT": "Regular",
+      "SCPT": "Super",
+      "STNOT": "Super",
+      "STPOT": "Super"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Here's your {{ value }} gift card for {{ shop }}!",
+      "subtext": "Here's your gift card!",
+      "disabled": "Disabled",
+      "expired": "Expired on {{ expiry }}",
+      "active": "Expires on {{ expiry }}",
+      "redeem": "Use this code at checkout to redeem your gift card",
+      "shop_link": "Start shopping",
+      "print": "Print",
+      "remaining_html": "{{ balance }} left",
+      "add_to_apple_wallet": "Add to Apple Wallet",
+      "initial_value": "Gift card value: {{ value }}"
+    }
+  },
+  "date_formats": {
+    "month_day_year": "%B %d, %Y"
+  },
+  "pages": {
+    "subscriptions": {
+      "title": "My Subscriptions",
+      "subheading": "No subscriptions on file",
+      "call_to_action": "Get Started"
+    },
+    "request-sample": {
+      "opted_in_message1": "You have opted in to recive a sample of LOLA {{ free_sample_product_title }}!",
+      "opted_in_message2": "Your sample pack will be included in your next shipment.",
+      "cta": "Opt-in",
+      "login": "You need to log in to your LOLA account, so we know who to send the samples to.",
+      "legal_html": "Sampling offer limited to original recipients of trial invitation from LOLA and cannot be transferred.<br>Offer limited to one sample per account for eligible accounts and can be redeemed only while supplies last.<br>Offer expires 8/18/2018 and is subject to the <a href=\"https://www.mylola.com/pages/terms-conditions\" target=\"_blank\">LOLA Terms of Service</a>.",
+      "opt_in_message_html": "Opt in to recive a sample of LOLA {{ free_sample_product_title }}.<br>in your next shipment!"
+    },
+    "about": {
+      "hero_title": "Meet LOLA — the first lifelong brand for women",
+      "hero_text": "We’re dedicated to providing you with an ever-expanding portfolio of trusted products and candid information for you to make deliberate decisions about your reproductive health. From your first period to your last hot flash (and&nbsp;beyond!), we’ll have you covered.",
+      "hero_cta": "Shop all",
+      "hero_learn_more": "Learn More",
+      "section_1_heading_1": "Jordana and Alex, Founders",
+      "section_1_text_1_html": "We were introduced by friends who had a hunch we'd hit it off. We met up, grabbed some food, and very quickly got to talking tampons (who wouldn't!). We became fixated on a simple fact: we couldn't figure out what was in our tampons. So we studied the boxes of the brands we'd used our whole lives and saw phrases like \"ingredients may contain.\" MAY contain?? Does it or doesn't it? <br><br>Then we got to thinking - why don't tampon brands have to disclose their ingredients? Why isn't there a brand we like that talks to us like adults, that looks like the other brands in our bathrooms? And why aren't tampons in the sizes we need delivered to our homes when we need them? At that moment, LOLA was born.",
+      "section_1_heading_2": "Where it all began: 100% organic cotton tampons — for women, by&nbsp;women.",
+      "section_1_text_2": "Compact plastic applicator tampon &mdash; Starting at $10",
+      "section_1_cta": "Shop now",
+      "mission_title": "Our Mission",
+      "mission": {
+        "1_title_html": "Becoming a lifelong brand for&nbsp;women",
+        "1_text_html": "<p>We know what it's like to enter a new phase of life (periods! sex! babies!) and how hard it is to find credible content and products we trust along the way. So, we’re building LOLA to make life a little easier — for all of us.</p>&mdash;<em>Jordana&nbsp;&&nbsp;Alex</em>",
+        "2_title": "Transparency in everything we do",
+        "2_text_html": "We provide you with the candid information you need to make deliberate decisions about your reproductive&nbsp;care.",
+        "3_title": "Leading conversations that create solutions",
+        "3_text_html": "The more we talk about women’s health, the better it becomes. We’re building a diverse community based on open dialogue to drive education, engagement, and advocacy for&nbsp;women.",
+        "4_title": "There for you, every step of the way",
+        "4_text_html": "With customizable products available for one-time purchase or on subscription, LOLA sends you the products you need, when you need them, directly to your&nbsp;door."
+      },
+      "lola_gives_back_heading": "LOLA gives back",
+      "lola_gives_back_copy": "When you choose LOLA, you’re helping women in need across the U.S. who are forced to choose between menstrual products for themselves and essentials for their families.",
+      "lola_gives_back_cta": "Learn more"
+    },
+    "how_it_works": {
+      "hero_title": "You know your body best",
+      "hero_text": "LOLA subscriptions are customizable, flexible, and convenient to make sure you have exactly what you need, when you need it — with free standard shipping every time.",
+      "hero_cta": "Shop all",
+      "hero_learn_more": "Learn More",
+      "section_1a_heading_1": "Step one",
+      "section_1a_heading_2": "Customize your subscription",
+      "section_1a_text": "Choose from a variety of period and sex products, and customize each order to suit your needs.",
+      "section_1b_heading_1": "Step two",
+      "section_1b_heading_2": "Set your delivery frequency",
+      "section_1b_text": "For each subscription product, you decide when to receive it (every 4 or 8 weeks). Standard shipping’s on us.",
+      "section_1c_heading_1": "Step three",
+      "section_1c_heading_2": "Add additional products",
+      "section_1c_text": "Choose from a selection of one-time purchase items anytime without disrupting your subscription.",
+      "section_2_heading_1": "Discreet and convenient",
+      "section_2_text_1": "Deliveries arrive in discreet packaging right to your door. No more late night drug store runs.",
+      "section_2_heading_2": "Adjust or skip anytime",
+      "section_2_text_2": "We’ll send you a reminder email two days before your next order processes to ensure you have time to adjust your product mix. Or, skip if you’re set for the month.",
+      "section_2_heading_3": "No commitments",
+      "section_2_text_3": "No subscription fees, no long-term commitments. We make it easy to skip or cancel directly online without&nbsp;penalties.",
+      "section_3_heading": "Subscription FAQs",
+      "faq": {
+        "01_question": "How does my LOLA subscription work?",
+        "01_answer": "Easy! First, pick which product(s) you want. Then, choose the product assortment and how many boxes of each product you want delivered at once. Finally, decide how frequently you'd like to receive your order — either every 4 or 8 weeks. Enter your shipping and billing information, and voila! A better month awaits you.",
+        "02_question": "Can I change the products I subscribe to?",
+        "02_answer_html": "<p>Absolutely! You can add and remove products as needed, as well as change your assortment and quantity of boxes in your subscription. Remember to make any changes before 12 AM EST on the day your subscription is set to renew.</p><p>We'll also send you a reminder email 2 days before your order is set to renew, so if you need to make any changes, you'll be reminded! If your order processes with any incorrect information, just email <a href='mailto:help@mylola.com'>help@mylola.com</a> and we'll get things sorted for you.</p>",
+        "03_question": "How do I make changes to my subscription?",
+        "03_answer_html": "<p>To make any changes to your subscription, log in to your account <a href='/account/login'>here​​</a> and click \"My Subscriptions\" on the left-hand side. From there, you can change your assortment and quantity of boxes, as well as add and remove products as needed.</p><p>If you're having any trouble making changes to your subscription, just email <a href='mailto:help@mylola.com'>help@mylola.com</a> and we'll get things sorted for you.</p>",
+        "04_question": "Will my subscription automatically renew?",
+        "04_answer_html": "<p>Yes, when you order LOLA's subscription products, you'll automatically be signed up to receive recurring orders. Visit the \"My Subscriptions\" page on your account page where you can adjust, skip, or cancel your subscription anytime.</p><p>We'll also send you a reminder email 2 days before your order is set to renew, so if you need to make any changes, you'll be reminded!</p>",
+        "05_question": "What is the frequency of a LOLA subscription? Can I change it?",
+        "05_answer_html": "<p>With LOLA, your subscription can renew every 4 or 8 weeks. You can skip a shipment at any time free of charge, or you can change your frequency altogether.</p><p>To create a highly customizable subscription, we make it easy to update the frequency for each individual product. So, for example, you can receive tampons every 4 weeks, and liners every 8 weeks!</p>",
+        "06_question": "What do I do if I need products earlier?",
+        "06_answer_html": "<p>If you need any (or all!) of your products before your next renewal date, log in to your account <a href='/account/login'>here​​</a> and click \"My Subscriptions\" on the left-hand side. Next to every product in your subscription, you'll see a \"Process now\" button.</p><p>When you click the \"Process now\" button, your subscription to that product will process at our warehouse on the next calendar day, and will be on its way to you within 1–2 business days! Moving forward, your subscription will continue to renew on its regular delivery cadence off of this date. You're all set!</p>",
+        "07_question": "Can I skip an order?",
+        "07_answer_html": "<p>You can skip (or un-skip!) any product in your subscription up until 12 AM EST on the day your subscription is set to renew. If you skip after midnight on your renewal date, there is no guarantee your order has not already processed.</p><p>We'll also send you a reminder email 2 days before your order is set to renew, so if you need to skip or make any changes, you'll be reminded!</p>",
+        "08_question": "Can I make a one-time purchase of tampons, pads, or liners?",
+        "08_answer": "We do not have a one-time purchase option for these products at this time.",
+        "09_question": "What happens if I move?",
+        "09_answer_html": "No problem! Wherever you go, LOLA is here for you. To change your address, log in to your account <a href='/account/login'>here​​</a> and click \"My Subscriptions\" on the left-hand side. From there, you can edit the shipping information for each subscription by clicking “Edit” next to your address. Be sure to click “Save,” so that your changes are locked in!",
+        "10_question": "How do I cancel my subscription?",
+        "10_answer_html": "<p>While we hate to see you go, you can cancel your subscription by signing into your account <a href='/account/login'>here​​</a> and going to the \"My Subscriptions\" page on the left-hand side. Next to each product you want to cancel, click “Edit.” Then, on the individual product's page, click \"Cancel\" under the product's name.</p><p>Make sure you click \"Cancel\" next to each product that you would no longer like to receive by 11:59PM EST the day before your renewal date to ensure the order does not process.</p><p>If you have any trouble cancelling, you can always email <a href='mailto:help@mylola.com'>help@mylola.com</a> and we'll get things sorted for you.</p>"
+      },
+      "section_3_link": "See all FAQ's",
+      "section_3_text_1": "We’re here for you",
+      "section_3_text_2_html": "Need help creating or managing your subscription? Reach out anytime to <a href=\"mailto:help@mylola.com\" class=\"how-it-works__section-3-link\">help@mylola.com</a> and we’ll make it right."
+    },
+    "giving_back": {
+      "section_1_title_html": "LOLA<br> gives back",
+      "section_1_content_html": "We're making periods better —<br> for everyone",
+      "section_2_title": "How we're helping",
+      "section_2_content_1_html": "Millions of low-income women in the United States are forced to choose between buying menstrual products for themselves or other essentials for their families. These items are among the most requested at homeless shelters, yet are least often donated.",
+      "section_2_content_2_html": "Since launch, we’ve donated 100,000 feminine care products to low-income women and girls across the U.S.",
+      "section_3_title": "Where they're going",
+      "section_3_content_1_html": "1,000,000",
+      "section_3_content_2_html": "• NUMBER OF TAMPONS DONATED SINCE JULY 2015 •",
+      "section_3_content_3_html": "27 STATES<br> 60 CITIES<br> 100+ SHELTERS",
+      "section_3_content_4_html": "• ALL THANKS TO OUR AMAZING PARTNERS •",
+      "section_4_title": "How you can help",
+      "section_4_column_a_title": "Share",
+      "section_4_column_a_content": "Spread the #TamponsAreNotALuxury message to friends, family and local government representatives to make periods better, for everyone.",
+      "section_4_column_b_title": "Purchase",
+      "section_4_column_b_content": "When you choose LOLA, you’re supporting a brand that provides products to women in need across the U.S.",
+      "section_4_column_b_call_to_action": "Get started",
+      "section_4_column_c_title": "Support",
+      "section_4_column_c_content": "Want to host a product drive or work with one of our partners directly? Visit their websites to ﬁnd out how you can get involved!"
+    }
+  },
+  "press": {
+    "daily_supplement": {
+      "hello_giggles": "The supplement is packed with vitamins and minerals that are proven to cut cramping and help rebuild those red blood cells.",
+      "vogue_html": "&hellip;old-school methods of relief&hellip;only take effect after discomfort sets in. Instead, Lola&rsquo;s new daily supplement intends to offer proactive support."
+    },
+    "essential_oil": {
+      "byrdie": "Believe it or not, you literally roll this oil across your abdomen to cure your cramp woes. How easy is that?",
+      "well_good_html": "[LOLA&rsquo;s] essential oil blend is small enough that you can stick it right in your purse and use it as needed throughout the day."
+    },
+    "fpk": {
+      "cup_of_jo": "What I would have given to have had LOLA as a teenager!",
+      "instyle_html": "Lola recognized this significant step in a woman&rsquo;s health, and in an effort to make it a little easier, launched the ultimate period introduction kit.",
+      "tiger_beat": "The kit is designed to make you feel prepared for your first period and educated about the changes your body will go through. How cool?"
+    },
+    "homepage": {
+      "header": "What the press is saying",
+      "glamour_html": "You choose the breadth of your flow, how many boxes you want, and when you want them to ship, and poof! They deliver toxin-free tampons to your doorstep. It&rsquo;s that easy.",
+      "inc": "The feminine hygiene space has always been a bit taboo, especially in mainstream media, but LOLA, the tampon subscription service, changed that.",
+      "vogue_html": "Suddenly, periods weren&rsquo;t to be hidden, but celebrated."
+    },
+    "pads_liners": {
+      "hello_giggles_html": "There are few ideas that sound more comforting to us during <em>that time of month</em> than having all of our necessities delivered to our front door.",
+      "well_good_html": "Whether you&rsquo;re getting behind pads or sticking with your tampons (or a mixture of both), it does seem the pad movement has some wings."
+    },
+    "sexual_wellness_kit": {
+      "elite_daily_html": "LOLA&rsquo;s new wellness kit is basically a primer for sex as a woman: how to talk about it, how to have it, and how to make it safe and satisfying.",
+      "womens_health": "From the makers of our favorite organic tampons, the new Sexual Wellness Kit has everything you need for happy, healthy romps."
+    },
+    "shared": {
+      "brit_co": "A product like this can empower future generations to feel more prepared and help end the stigma of menstruation.",
+      "instyle": "The ultimate solution for your period cramps has arrived",
+      "my_life_ooo": "Goodbye heating pads and copious amounts of Advil.",
+      "popsugar": "LOLA guessed correctly that women want more transparent and safe options from modern brands."
+    },
+    "tampons": {
+      "elle": "These new tampons are a total game changer.",
+      "hello_giggles": "For those who find themselves anxiously running to the store to buy tampons every time they get their period, this is the kind of subscription service that works like a dream.",
+      "new_york_mag_html": "Unlike other tampon makers, they list the <em>ingredients</em> right on the box.",
+      "womens_health_html": "We&rsquo;re not sure what we love most about LOLA: The fact that their tampons are made from natural hypoallergenic cotton, or that they&rsquo;re available as a subscription service so you never need to make a midday trip to CVS."
+    }
+  },
+  "recharge": {
+    "address_edit": {
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "company": "Company",
+      "edit_address": "Edit address",
+      "errors": "Errors",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "phone": "Phone",
+      "province": "State",
+      "submit": "Save",
+      "zip": "Zip"
+    },
+    "subscriptions": {
+      "cancel": "Cancel",
+      "edit": "Edit product",
+      "every": "Every",
+      "my_subscriptions": "My subscriptions",
+      "reactivate": "Re-activate",
+      "add_product": "Add products",
+      "new_subscription": "Create new subscription",
+      "skip": "Skip",
+      "skipped": "Skipped",
+      "unskip": "Unskip",
+      "process_now_trigger": "Process now",
+      "process_now_processing": "Order processing",
+      "referral_code": "Referral Code",
+      "applied_discount": "Promo",
+      "subscription": "Subscription",
+      "new_subscription_message": "*New products cannot be added to inactive subscriptions. Please create a new subscription",
+      "amount_saved": "You saved",
+      "pause": "Pause"
+    },
+    "subscription": {
+      "heading": "My Updated Subscription",
+      "next_order_on": "Next order on",
+      "every": "Every",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "reactivate": "Re-activate",
+      "subscription": "Subscription"
+    },
+    "subscription_edit": {
+      "4weeks": "4 weeks",
+      "8weeks": "8 weeks",
+      "errors": "Errors",
+      "submit": "Save",
+      "edit_shipping_address": "Edit shipping address",
+      "edit_credit_card": "Edit credit card",
+      "add_subscription": "Add subscription",
+      "subscription_frequency": "Delivered every"
+    },
+    "subscription_cancel": {
+      "heading": "Canceling your subscription to",
+      "body": "Select a reason for canceling your subscription.",
+      "comments": "Comments",
+      "cancel": "Cancel subscription",
+      "nevermind": "I've changed my mind"
+    }
+  },
+  "product_details": {
+    "general": {
+      "how_subscriptions_work": {
+        "title": "Subscriptions",
+        "1": "Choose your quantity and frequency, then click “add to cart”",
+        "2": "Add more items or check out. Voilà — you’re set!",
+        "3": "Don’t worry. We’ll remind you before your next order ships"
+      },
+      "faq": {
+        "title": "FAQs",
+        "1": "Choose your quantity and frequency, then click “add to cart”",
+        "2": "Add more items or check out. Voilà — you’re set!",
+        "3": "Don’t worry. We’ll remind you before your next order ships"
+      },
+      "shipping": {
+        "title": "Shipping",
+        "1": "Choose your quantity and frequency, then click “add to cart”",
+        "2": "Add more items or check out. Voilà — you’re set!",
+        "3": "Don’t worry. We’ll remind you before your next order ships"
+      }
+    },
+    "cleansing_wipes": {
+      "features": {
+        "title": "Features",
+        "1": "The first all natural wipe of its kind",
+        "2": "Maintains a healthy vaginal pH balance",
+        "3": "Perfect for a mid-day refresh or post-sex clean-up",
+        "4": "Individually packaged and perfect for on-the-go",
+        "5": "Safe for use anywhere on the body",
+        "6": "Gynecologist approved and hypoallergenic"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Wipe material: 100% Bamboo",
+        "2": "Liquid ingredients: Water, Gluconic Acid, Sodium Benzoate, Lonicera Japonica (Honeysuckle) Flower Extract, Lonicera Caprifolium (Honeysuckle) Flower Extract, Lactic Acid"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Alcohol",
+        "2": "Parabens",
+        "3": "Chlorine bleach",
+        "4": "Sulfates",
+        "5": "Dyes",
+        "6": "Synthetic preservatives",
+        "7": "Fragrance"
+      },
+      "about_this_item": {
+        "title": "About this item"
+      },
+      "certified_and_acclaimed": {
+        "title": "Certified and acclaimed"
+      },
+      "reviews": {
+        "title": "Reviews"
+      }
+    },
+    "lubricated_condoms": {
+      "features": {
+        "title": "Features",
+        "1": "Proven to reduce the risk of pregnancy and STIs",
+        "2": "Ultra-thin for a barely there feel",
+        "3": "Standard fit (52mm wide; 189mm long) for secure comfort",
+        "4": "Low-odor natural rubber latex",
+        "5": "Coated with the highest quality lubricant made in USA",
+        "6": "Every condom is 100% electronically tested for quality",
+        "7": "Gynecologist-approved"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Condom: Natural rubber latex, cornstarch powder",
+        "2": "Lubricant: Silicone oil"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Parabens",
+        "2": "Nitrosamines",
+        "3": "Casein",
+        "4": "Gluten",
+        "5": "Glycerin",
+        "6": "Synthetic Colorants",
+        "7": "Synthetic Flavor",
+        "8": "Fragrance"
+      }
+    },
+    "personal_lubricant": {
+      "features": {
+        "title": "Features",
+        "1": "Water-based to perfectly mimic your natural moisture",
+        "2": "Maintains a healthy vaginal pH balance",
+        "3": "One-click pump system ensures mess-free pleasure",
+        "4": "Non-sticky, long-lasting, and fertility-friendly",
+        "5": "Safe for use with condoms and toys",
+        "6": "Gynecologist-approved and hypoallergenic"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Organic Aloe Barbadensis Leaf Juice, Xanthan Gum, Agar, Lactic Acid, Potassium Sorbate, Sodium Benzoate, and a touch of Organic Vanilla and Organic Lemon for naturally infused flavor"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Parabens",
+        "2": "Petrochemicals",
+        "3": "Glycerin",
+        "4": "Synthetic Colorants",
+        "5": "Synthetic Flavor",
+        "6": "Fragrance"
+      }
+    },
+    "applicator_tampons": {
+      "features": {
+        "title": "Features",
+        "1": "Superior leak protection",
+        "2": "Hypoallergenic",
+        "3": "Expands widthwise for comfort",
+        "4": "Compact applicator"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Tampon: 100% organic cotton",
+        "2": "Applicator: BPA-free plastic"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Synthetic fibers",
+        "2": "Chemical additives",
+        "3": "Fragrance",
+        "4": "Dyes",
+        "5": "Chlorine bleach"
+      }
+    },
+    "non_applicator_tampons": {
+      "features": {
+        "title": "Features",
+        "1": "Superior leak protection",
+        "2": "Hypoallergenic",
+        "3": "Expands widthwise for comfort"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Tampon: 100% organic cotton"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Synthetic fibers",
+        "2": "Chemical additives",
+        "3": "Fragrance",
+        "4": "Dyes",
+        "5": "Chlorine bleach"
+      }
+    },
+    "cardboard_applicator_tampons": {
+      "features": {
+        "title": "Features",
+        "1": "Superior leak protection",
+        "2": "Flushable cardboard applicator",
+        "3": "Smooth, curved tip for comfortable, easy insertion",
+        "4": "Hypoallergenic"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Tampon: 100% organic cotton",
+        "2": "Applicator: Cardboard"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Synthetic fibers",
+        "2": "Chemical additives",
+        "3": "Fragrance",
+        "4": "Dyes",
+        "5": "Chlorine bleach"
+      }
+    },
+    "pads": {
+      "features": {
+        "title": "Features",
+        "1": "Locks in wetness",
+        "2": "Absorbent, yet breathable",
+        "3": "Comfortable and discreet",
+        "4": "Thin wings wrap for a secure fit",
+        "5": "Hypoallergenic",
+        "6": "Dermatologist-tested"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Topsheet and core: 100% organic cotton",
+        "2": "Waterproof backing: Plant-based with non-toxic adhesive"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Synthetic fibers",
+        "2": "Fragrance",
+        "3": "Deodorant",
+        "4": "Dyes",
+        "5": "Chlorine bleach",
+        "6": "Latex",
+        "7": "Parabens",
+        "8": "Formaldehyde"
+      }
+    },
+    "liners": {
+      "features": {
+        "title": "Features",
+        "1": "Absorbent, yet breathable",
+        "2": "Naturally soft for sensitive skin",
+        "3": "Ultra-thin for discreet protection",
+        "4": "Edge-to-edge adhesive for a secure fit",
+        "5": "Hypoallergenic",
+        "6": "Dermatologist-tested"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Topsheet and core: 100% organic cotton",
+        "2": "Waterproof backing: Plant-based with non-toxic adhesive"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Synthetic fibers",
+        "2": "Fragrance",
+        "3": "Deodorant",
+        "4": "Dyes",
+        "5": "Chlorine bleach",
+        "6": "Latex",
+        "7": "Parabens",
+        "8": "Formaldehyde"
+      }
+    },
+    "essential_oil_blend": {
+      "features": {
+        "title": "Features",
+        "1": "Calms PMS-related symptoms",
+        "2": "82% of users felt immediate reduction in cramp pain",
+        "3": "Aromas of lavender and ylang ylang soothe the mind",
+        "4": "Rolls on smoothly for easy on-the-go application",
+        "5": "Pre-blended with jojoba seed oil for direct use on the skin"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Simmondsia Chinensis (Jojoba) Seed Oil, Caprylic/Capric Triglyceride, Pelargonium Graveolens (Geranium) Oil, Cananga Odorata Flower (Ylang Ylang) Oil, Zingiber Officinale (Ginger) Root Oil, Mentha Piperita (Peppermint) Oil, Cinnamomum Zeylanicum Leaf Oil, Eugenia Caryophyllus (Clove) Bud Oil, Cinnamomum Cassia Leaf Oil, Anthemis Nobilis Flower (Roman Chamomile) Oil, Lavandula Hybrida (Lavender) Oil, Cymbopogon Martini (Lemongrass) Oil, Myristica Fragrans (Nutmeg) Kernel Oil, Citrus Nobilis (Mandarin Orange) Peel Oil, Pogostemon Cablin (Patchouli) Oil, Citrus Limon (Lemon) Peel Oil, Thuja Occidentalis Leaf (Cedarleaf) Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Mentha Arvensis (Wild Mint) Leaf Oil, Brassica Alba (White Mustard) Sprout Extract, Capsaicin"
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Parabens",
+        "2": "Synthetic colors",
+        "3": "Synthetic fragrance",
+        "4": "Alcohol"
+      }
+    },
+    "daily_supplement": {
+      "features": {
+        "title": "Features",
+        "1": "Provides PMS symptom relief",
+        "2": "72% of users experienced reduced cramps within one month",
+        "3": "Helps rebuild red blood cells lost during your period",
+        "4": "Supports a healthy menstrual cycle",
+        "5": "Small, easy-to-swallow, once-daily tablet"
+      },
+      "ingredients": {
+        "title": "Ingredients",
+        "1": "Dietary supplements: Vitamin A (as acetate) 5000IU, Vitamin C (as ascorbic acid) 60mg, Vitamin D (as cholecalciferol) 400IU, Thiamine (as thiamine HCl) 1.5mg, Riboflavin 1.7mg, Niacin 20mg, Vitamin B6 (as pyridoxine HCl) 2mg, Folic Acid 0.4mg, Vitamin B12 (as cyanocobalamin) 6mcg Other ingredients: Dicalcium phosphate, stearic acid, microcrystalline cellulose, talc, starch, gelatin, hypromellose, croscarmellose sodium, polydextrose, titanium dioxide, sucrose, triglycerides, sodium ascorbate, triacetin, mineral oil, and silica. "
+      },
+      "free_of": {
+        "title": "Free of",
+        "1": "Soy",
+        "2": "Wheat",
+        "3": "Gluten",
+        "4": "Nuts",
+        "5": "Dairy",
+        "6": "Eggs",
+        "7": "Artificial sweeteners",
+        "8": "Artificial flavor",
+        "9": "Artificial color"
+      }
+    },
+    "first_period_kit": {
+      "whats_in_the_kit": {
+        "title": "What’s in the kit",
+        "1_html": "6 <a href=\"/products/pads\">day pads</a> for medium to heavy days",
+        "2_html": "6 <a href=\"/products/pads\">night pads</a> for overnight coverage",
+        "3_html": "10 <a href=\"/products/liners\">liners</a> for light days or backup",
+        "4_html": "10 <a href=\"/products/applicator-tampons\">light tampons</a> for slim-fit protection",
+        "5_html": "Instructional card for each period product",
+        "6_html": "1 canvas pouch for on-the-go moments",
+        "7_html": "1 sheet of stickers for period tracking",
+        "8_html": "1 keepsake box for at-home storage",
+        "9_html": "$5 LOLA credit towards a new subscription"
+      },
+      "whats_in_the_guide": {
+        "title": "What’s in the guide",
+        "1": "We partnered with leading pediatrician Dr. Lisa Stern to co-author a free, downloadable guide that covers everything a girl needs to know about her first period. It’s full of honest, straightforward information, and features a Q&A addressing top questions collected from girls and their parents."
+      }
+    },
+    "sexual_wellness_kit": {
+      "whats_in_the_kit": {
+        "title": "What’s in the kit",
+        "1_html": "1 printed version of <em>LOLA’s personal, honest, real-life guide to sexual wellness</em> with contributions by women’s health experts Dr. Corina Dunlap and Dr. Wendy Hurst",
+        "2_html": "5 <a href=\"/products/lubricated-condoms\">ultra thin lubricated condoms</a> made with natural rubber latex for contraception and STI protection",
+        "3_html": "5 all-natural, individually wrapped <a href=\"/products/cleansing-wipes\">cleansing wipes</a> designed to maintain a healthy pH balance",
+        "4_html": "1 bottle of water-based <a href=\"/products/personal-lubricant\">personal lubricant</a> featuring a no-mess dispenser",
+        "5_html": "1 convenient pouch for carrying on-the-go",
+        "6_html": "1 keepsake box for at-home storage",
+        "7_html": "$5 LOLA credit toward a new subscription"
+      },
+      "whats_in_the_kit_signed_in": {
+        "title": "What’s in the kit",
+        "1_html": "1 printed version of <em><a href=\"{{ swk_guide_url }}\" target=\"_blank\">LOLA’s personal, honest, real-life guide to sexual wellness</em></a> with contributions by women’s health experts Dr. Corina Dunlap and Dr. Wendy Hurst",
+        "2_html": "5 <a href=\"/products/lubricated-condoms\">ultra thin lubricated condoms</a> made with natural rubber latex for contraception and STI protection",
+        "3_html": "5 all-natural, individually wrapped <a href=\"/products/cleansing-wipes\">cleansing wipes</a> designed to maintain a healthy pH balance",
+        "4_html": "1 bottle of water-based <a href=\"/products/personal-lubricant\">personal lubricant</a> featuring a no-mess dispenser",
+        "5_html": "1 convenient pouch for carrying on-the-go",
+        "6_html": "1 keepsake box for at-home storage",
+        "7_html": "$5 LOLA credit toward a new subscription"
+      },
+      "whats_in_the_guide": {
+        "title": "What’s in the guide",
+        "1": "We partnered with leading medical experts, Dr. Corina Dunlap and Dr. Wendy Hurst, to co-author a 50-page printed guide that serves as a comprehensive resource with honest and straightforward information about sexual health and wellness. It covers everything from anatomy 101 to how to talk about sex, how to have it, and how to make it a consensual, safe, and satisfying experience for women (and their partners). We like to call it Sex Ed 2.0."
+      }
+    }
+  }
+}

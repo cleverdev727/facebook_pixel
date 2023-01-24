@@ -1,0 +1,89 @@
+// sass-lint:disable-block max-line-length
+
+@use "sass:math";
+
+$_hamburger-layer-width: 25px;
+$_hamburger-layer-height: 2px;
+$_hamburger-layer-spacing: 5px;
+$_hamburger-layer-border-radius: 2px;
+
+.hamburger-to-x {
+  cursor: pointer;
+  display: inline-block;
+  overflow: visible;
+  padding: 15px;
+  text-transform: none;
+  transition: opacity $base-duration $base-timing;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &.hamburger-to-x--active {
+    .hamburger-to-x__inner {
+      transform: rotate(45deg);
+      transition-delay: 0.12s;
+      transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+      &::before {
+        opacity: 0;
+        top: 0;
+        transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+      }
+
+      &::after {
+        bottom: 0;
+        transform: rotate(-90deg);
+        transition: bottom 0.075s ease,
+          transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+    }
+  }
+}
+
+.hamburger-to-x__wrapper {
+  display: inline-block;
+  height: $_hamburger-layer-height * 3 + $_hamburger-layer-spacing * 2;
+  position: relative;
+  width: $_hamburger-layer-width;
+
+  @media (max-width: $app-navigation-breakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.hamburger-to-x__inner {
+  display: block;
+  margin-top: math.div($_hamburger-layer-height, -2);
+  top: 50%;
+  transition-duration: 0.075s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+  &,
+  &::before,
+  &::after {
+    background-color: $base-font-color;
+    border-radius: $_hamburger-layer-border-radius;
+    height: $_hamburger-layer-height;
+    position: absolute;
+    width: $_hamburger-layer-width;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+  }
+
+  &::before {
+    top: ($_hamburger-layer-spacing + $_hamburger-layer-height) * -1;
+    transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  }
+
+  &::after {
+    bottom: ($_hamburger-layer-spacing + $_hamburger-layer-height) * -1;
+    transition: bottom 0.075s 0.12s ease,
+      transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+}

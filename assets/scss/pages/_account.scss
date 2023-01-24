@@ -1,0 +1,24 @@
+.account {
+  min-height: 86vh;
+
+  @media (min-width: $account-width--desktop) {
+    display: grid;
+    grid-gap: $gutter--base;
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+
+.account__content {
+  @media (min-width: $medium-screen) {
+    margin-left: $gutter--small;
+    margin-right: $gutter--small;
+    margin-top: 2.5rem;
+  }
+
+  @media (min-width: $account-width--desktop) {
+    grid-column: 3 / 11;
+    display: grid;
+    align-items: flex-start;
+    margin: 20px 0 20px 20px;
+  }
+}

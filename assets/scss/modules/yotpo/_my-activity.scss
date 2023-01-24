@@ -1,0 +1,150 @@
+.yotpo-my-activity-module {
+  .yotpo-tile {
+    &-box {
+      .yotpo-info {
+        margin-bottom: 60px;
+
+        .yotpo-headline {
+          margin-bottom: 0;
+
+          .yotpo-inner-text {
+            font: 36px/45px "Apercu Medium" !important;
+            color: $dark-brown !important;
+          }
+        }
+      }
+
+      .yotpo-reward {
+        &-steps-list {
+          display: grid;
+          grid-template-columns: repeat(3, max-content);
+          column-gap: 140px;
+
+
+        }
+
+        &-steps-item {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: auto;
+          min-width: 2px;
+          padding: 0;
+
+
+          svg {
+            display: inline-block;
+            height: 35px;
+
+            path {
+              fill: $dark-brown;
+            }
+          }
+
+          .yotpo-step-icon {
+            height: auto;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #57504C;
+            border-radius: 50%;
+          }
+        }
+
+        &-steps-title {
+          .yotpo-inner-text {
+            font: 24px/30px "Apercu Medium" !important;
+            color: $dark-brown !important;
+          }
+        }
+      }
+    }
+  }
+
+  .yotpo-widget-my-rewards-widget {
+    .yotpo-logged-in-view {
+      .yotpo-headline {
+        .yotpo-inner-text {
+          font: 36px/45px "Apercu Medium" !important;
+          color: $dark-brown !important;
+        }
+      }
+
+      .yotpo-description {
+        .yotpo-inner-text {
+          font: 24px/36px "Apercu Medium" !important;
+          color: $dark-brown !important;
+        }
+      }
+    }
+
+    .yotpo-primary-button {
+      button {
+        margin-top: 8px !important;
+        margin-left: auto;
+        margin-right: auto;
+        @include button;
+        background-color: $dark-blue !important;
+        color: #fff !important;
+        box-shadow: none !important;
+
+        &:hover {
+          background-color: transparent !important;
+          color: $dark-brown !important;
+        }
+      }
+    }
+
+    .yotpo-secondary-button {
+      button {
+        margin-top: 8px !important;
+        margin-left: auto;
+        margin-right: auto;
+        @include button;
+        background-color: transparent !important;
+        color: $dark-blue !important;
+        box-shadow: none !important;
+
+        &:hover {
+          background-color: $dark-brown !important;
+          color: #fff !important;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $medium-screen) {
+    .yotpo-tile {
+      &-box {
+        .yotpo-info {
+          margin-bottom: 30px !important;
+        }
+
+        .yotpo-reward {
+          &-steps-list {
+            display: block;
+          }
+
+          &-steps-item {
+            svg {
+              height: 25px;
+
+              path {
+                fill: $dark-brown;
+              }
+            }
+
+            .yotpo-step-icon {
+              width: 60px;
+              height: 60px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

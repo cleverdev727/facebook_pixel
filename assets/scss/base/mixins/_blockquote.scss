@@ -1,0 +1,11 @@
+@mixin blockquote {
+  font-size: 1.5rem;
+
+  @media (min-width: $medium-screen) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: $large-screen) {
+    font-size: 2.5rem;
+  }
+}

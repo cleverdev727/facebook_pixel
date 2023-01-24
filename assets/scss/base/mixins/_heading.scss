@@ -1,0 +1,11 @@
+@mixin heading($small: 1.25rem, $large: 1.875rem) {
+  font-size: $small;
+
+  @media (min-width: $large-screen) {
+    font-size: $large;
+  }
+}
+
+@mixin heading--tall {
+  margin-bottom: $base-spacing;
+}

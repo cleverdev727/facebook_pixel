@@ -1,0 +1,11 @@
+@mixin label($type: heading) {
+  font-size: $label-font-size;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: $small-line-height;
+  text-transform: uppercase;
+
+  @if $type == heading {
+    margin-bottom: $base-spacing;
+  }
+}

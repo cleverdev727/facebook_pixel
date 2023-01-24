@@ -1,0 +1,275 @@
+.yotpo-rewards-module {
+  .yotpo-content-container {
+    padding: 24px;
+    text-align: left;
+  }
+
+  .yotpo-content-container,
+  .yotpo-redemption-options-list {
+    background-color: #f8f6f2;
+    padding: 24px;
+    text-align: left !important;
+  }
+
+  .yotpo-headline {
+    font-family: "Apercu Medium" !important;
+    font-weight: normal !important;
+    color: $dark-brown !important;
+  }
+
+  .yotpo-description {
+    font-family: "Apercu Pro" !important;
+    color: $dark-brown !important;
+  }
+
+  .yotpo-points-balance {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    background-color: $dark-blue !important;
+    color: #fff !important;
+    font-family: "Apercu Medium";
+    border-radius: 6px;
+
+    &-text {
+      font-family: "Apercu Pro";
+      font-size: 38px;
+      font-weight: 400;
+
+      &:first-of-type {
+        font-family: "Apercu Light";
+        font-size: inherit;
+        font-weight: lighter !important;
+      }
+
+      span {
+        color: #fff !important;
+      }
+    }
+  }
+
+  .yotpo-redemption-option {
+    &-reward {
+      font: 28px/36px "Apercu Medium" !important;
+      color: $base-font-color !important;
+      text-transform: lowercase;
+    }
+
+    &-cost {
+      font: 24px/36px "Apercu Pro" !important;
+      color: $base-font-color !important;
+    }
+
+    &-redeem-button {
+      padding-left: 20px;
+
+      button {
+        margin: 0 !important;
+        @include button;
+        background-color: $dark-blue !important;
+        color: $base-background-color !important;
+
+        &:hover,
+        &:focus {
+          background-color: transparent !important;
+          border: 1px solid $dark-blue !important;
+          color: $dark-blue !important;
+        }
+      }
+    }
+  }
+
+  .yotpo-redemption-confirmation {
+    &-title {
+      font-family: "Apercu Pro" !important;
+      font-weight: 600;
+      color: $dark-brown !important;
+    }
+
+    &-options {
+      margin-top: 20px !important;
+      justify-content: start !important;
+    }
+
+    &-option {
+      button {
+        margin: 0 !important;
+        @include button;
+        background-color: $dark-blue !important;
+        color: $base-background-color !important;
+
+        &:hover,
+        &:focus {
+          background-color: transparent !important;
+          border: 1px solid $dark-blue !important;
+          color: $dark-blue !important;
+        }
+      }
+
+      &-cancel {
+        button {
+          background-color: transparent !important;
+          border: 1px solid $dark-blue !important;
+          color: $dark-blue !important;
+
+          &:hover,
+          &:focus {
+            background-color: $dark-blue !important;
+            color: $base-background-color !important;
+          }
+        }
+      }
+    }
+  }
+
+  .yotpo-copy-code-button {
+    margin-top: 0 !important;
+    @include button;
+    background-color: $dark-brown !important;
+    color: $base-background-color !important;
+    border: none !important;
+
+    &:hover,
+    &:focus {
+      background-color: transparent !important;
+      border: 1px solid $dark-brown !important;
+      color: $dark-brown !important;
+    }
+  }
+
+  .yotpo-message-display-area {
+    height: auto !important;
+    max-height: 120px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  @media screen and (min-width: $medium-screen + 20px) {
+    .yotpo-coupouns-container {
+      display: grid;
+      grid-template-columns: repeat(2, calc(50% - 12px));
+      gap: 24px;
+      max-width: 100% !important;
+
+      &.yotpo-is-mobile {
+        width: 100% !important;
+      }
+    }
+
+    .yotpo-coupons-redemption-widget {
+      &-container {
+        padding: 0 !important;
+      }
+    }
+
+    .yotpo-redemption-options-list {
+      margin: 0 !important;
+      display: flex;
+      flex-direction: column;
+
+      .yotpo-redemption-item {
+        width: 100% !important;
+        margin-bottom: 20px;
+        text-align: left !important;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+
+        .yotpo-redemption-option {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+
+      &.yotpo-is-mobile {
+        max-width: 100% !important;
+      }
+    }
+  }
+
+  @media screen and (max-width: $tablet-screen) {
+    .yotpo-redemption-option {
+      &-cost {
+        font-size: 18px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      &-details {
+        text-align: center;
+      }
+
+      &-redeem-button {
+        padding-left: 0 !important;
+
+        button {
+          margin: 0 auto !important;
+        }
+      }
+    }
+
+    .swiper-container.yotpo-redemption-options-carousel.swiper-container-initialized {
+      width: 100% !important;
+    }
+  }
+
+  @media screen and (max-width: $medium-screen) {
+    .yotpo-coupouns-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      width: 100% !important;
+    }
+
+    .yotpo-redemption-confirmation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .yotpo-coupons-redemption-widget {
+      &-container {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    }
+
+    .yotpo-redemption-options-list {
+      margin: 0 !important;
+      max-width: 100% !important;
+    }
+
+    .yotpo-redemption-option {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-container {
+        padding: 0;
+      }
+
+      &-reward {
+        font-size: 24px !important;
+        text-align: center;
+      }
+
+      &-redeem-button {
+        padding-left: 20px;
+
+        button {
+          span {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+}

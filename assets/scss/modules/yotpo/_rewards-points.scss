@@ -1,0 +1,41 @@
+.customer-card {
+
+  .yotpo-rewards-module {
+
+    .yotpo-coupons-redemption-widget {
+      .yotpo-description {
+        display: none;
+      }
+
+      .yotpo-headline {
+        display: none;
+      }
+    }
+
+    .yotpo-coupouns-container {
+      display: block;
+    }
+
+    .yotpo-content-container {
+      padding: 0;
+    }
+
+    .yotpo-points-balance {
+      max-width: 18em;
+      padding: 0;
+      border-radius: 0;
+    }
+
+    .yotpo-points-balance-text:first-of-type {
+      display: none;
+    }
+
+    .yotpo-message-display-area {
+      display: none;
+    }
+
+    .yotpo-redemption-options-list {
+      display: none;
+    }
+  }
+}

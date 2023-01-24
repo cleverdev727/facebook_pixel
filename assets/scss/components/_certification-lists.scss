@@ -1,0 +1,25 @@
+.certification-list {
+  @media (max-width: $product-breakpoint--small) {
+    text-align: center;
+  }
+}
+
+.certification-list__item {
+  display: inline-block;
+  margin: $small-spacing * 0.5;
+
+  &:last-child {
+    margin-bottom: $base-spacing;
+  }
+}
+
+.certification-list__item--text {
+  color: $base-font-color;
+  display: block;
+  font-size: 0.75rem;
+}
+
+.certification-list__icon {
+  height: auto;
+  width: 40px;
+}

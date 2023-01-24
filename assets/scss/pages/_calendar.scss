@@ -1,0 +1,31 @@
+/*! purgecss start ignore */
+// override v-calendar default styles
+.vc-container {
+  font-family: $base-font-family !important;
+  --day-content-bg-color-focus: transparent !important;
+  --day-content-bg-color-hover: rgba(78, 98, 130, 0.1) !important;
+  --day-content-width: 36px !important;
+  --day-content-height: 36px !important;
+  --day-min-height: 36px !important;
+  --highlight-height: 36px !important;
+  --title-padding: 8px !important;
+  --arrows-padding: 17px 10px !important;
+}
+
+.vc-bg-blue-600 {
+  background-color: #4e6282 !important;
+}
+
+.vc-weekday {
+  font-size: 12px !important;
+}
+
+.vc-text-gray-800 {
+  color: #514945 !important;
+}
+
+.vc-text-lg {
+  font-size: 20px !important;
+}
+// end override v-calendar styles
+/*! purgecss end ignore */

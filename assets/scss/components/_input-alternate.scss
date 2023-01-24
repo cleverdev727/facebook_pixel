@@ -1,0 +1,9 @@
+.input-alternate {
+  background-color: shade($secondary-background-color, 4%);
+  border: 0;
+
+  &:focus {
+    background-color: shade($secondary-background-color, 10%);
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,77 @@
+
+
+.account-header {
+  padding: 1rem;
+
+  @media (min-width: $account-width--desktop) {
+    padding: 1em 2em;
+    margin-bottom: $base-spacing;
+    border-bottom: 0;
+    background-color: #f8f6f2;
+    margin-top: 2.5rem;
+    height: 80vh;
+  }
+
+  .account-header__heading {
+    display: none;
+    font-size: 28px;
+    color: #514945;
+    margin-bottom: 0.3em;
+
+    @media (min-width: $account-width--desktop) {
+      display: inherit;
+    }
+  }
+
+  .account-header__link {
+    color: $base-font-color;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 2;
+    text-decoration: none;
+    padding: 0 1em;
+    border-radius: 1.5em;
+
+    &.nuxt-link-exact-active, &:hover {
+      color: #fff !important;
+      background: $action-color-strong;
+    }
+
+    @media (min-width: $account-width--desktop) {
+      font-weight: normal;
+    }
+  }
+
+  .account-header__navigation.nuxt-link-active {
+    @include button;
+    @media (max-width: $account-width--desktop) {
+      display: block;
+    }
+  }
+
+  .account-header__list-items {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+
+    @media (min-width: $account-width--desktop) {
+      display: block;
+    }
+  }
+
+  .account-header__list-item {
+    @media (min-width: $account-width--desktop) {
+      margin-bottom: 1em;
+    }
+  }
+
+  .account-header__logout {
+    display: none;
+    margin-top: 3em;
+
+    @media (min-width: $account-width--desktop) {
+      display: block;
+    }
+  }
+}

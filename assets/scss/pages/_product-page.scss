@@ -1,0 +1,200 @@
+/*! purgecss start ignore */
+
+#lola-product-page {
+  min-height: 250px;
+
+  .temp-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .label {
+    display: flex;
+
+    .icon {
+      width: 20px;
+      height: 20px;
+      background: #d2dfea;
+      border-radius: 50%;
+
+      &.light {
+        background: $regular-light-blue;
+      }
+
+      &.regular {
+        background: $regular-blue;
+      }
+
+      &.super {
+        background: $super-blue;
+      }
+
+      &.super-plus {
+        background: $super-plus-blue;
+      }
+
+      &.day {
+        background: $day-blue;
+      }
+
+      &.night,
+      &.heavy {
+        background: $night-blue;
+      }
+    }
+
+    .text {
+      padding-left: 4px;
+
+      .qty {
+        padding-right: 3px;
+      }
+    }
+  }
+
+  .assortment {
+    &__wrapper {
+      .tabs {
+        li {
+          input:checked + label {
+            &.light {
+              border-color: $regular-light-blue;
+            }
+
+            &.regular {
+              border-color: $regular-blue;
+            }
+
+            &.super {
+              border-color: $super-blue;
+            }
+
+            &.super-plus {
+              border-color: $super-plus-blue;
+            }
+
+            &.day {
+              border-color: $day-blue;
+            }
+
+            &.night,
+            &.heavy {
+              border-color: $night-blue;
+            }
+          }
+        }
+      }
+    }
+
+    &.pad {
+      .label .icon.regular {
+        background: $day-blue;
+      }
+
+      .assortment__wrapper {
+        .tabs {
+          li {
+            input:checked + label {
+              &.regular {
+                border-color: $day-blue;
+              }
+
+              &.day {
+                border-color: $day-blue;
+              }
+            }
+          }
+        }
+      }
+
+      .assortment--customizer .box {
+        .regular {
+          background-color: $day-blue;
+        }
+      }
+    }
+  }
+}
+
+.lola-pdp {
+  min-height: 60vh;
+
+  .product__descriptions {
+    .accordion {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+
+      .title {
+        font: 16px/23px "Apercu Medium", sans-serif;
+        padding: 10px 0;
+        display: flex;
+        background-color: #f8f6f2;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+
+        > span {
+          width: 80vw;
+          max-width: 1200px;
+          margin: 0 auto;
+          display: flex;
+
+          .toggle-icon {
+            position: relative;
+            margin-left: 10px;
+            width: 24px;
+            height: 24px;
+
+            span {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              transition: transform 0.2s ease-in;
+              transform: scale(0.8);
+              font-weight: 800;
+            }
+
+            .switcher {
+              transform: rotate(-90deg) scale(0.75);
+            }
+          }
+        }
+      }
+
+      .body {
+        background-color: #faf7f6;
+        background-color: #fff;
+        max-height: 0px;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        pointer-events: none;
+
+        > * {
+          width: 80vw;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 24px 0;
+        }
+      }
+
+      &.expanded {
+        .title {
+          .switcher {
+            transform: rotate(0deg) scale(0.75) !important;
+          }
+        }
+        .body {
+          max-height: 800px;
+          opacity: 1;
+          pointer-events: initial;
+          overflow-y: auto;
+        }
+      }
+    }
+  }
+}
+
+/*! purgecss end ignore */

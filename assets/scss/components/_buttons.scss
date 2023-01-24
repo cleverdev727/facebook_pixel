@@ -1,0 +1,62 @@
+.button {
+  @include button;
+
+  &.cta {
+    min-width: 239px;
+  }
+
+  &.button--inline {
+    display: inline;
+
+    &-block {
+      display: inline-block !important;
+      height: auto;
+      padding: 12px 4rem;
+    }
+  }
+
+  &.button-md {
+    padding: 10px 32px;
+
+    @media screen and (max-width: ($tiny-screen - 1px)) {
+      padding: 10px 16px;
+    }
+  }
+
+  &.button--white {
+    background-color: #fff;
+    color: $dark-brown;
+    border: 1px solid $dark-brown;
+
+    &:hover {
+      color: #fff;
+      background-color: $dark-brown;
+    }
+  }
+
+  &.button--stripped {
+    @include button--stripped;
+
+    &-white {
+      @include button--stripped;
+      color: #fff;
+      border-color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: inherit;
+      }
+    }
+
+    &-blue {
+      @include button--stripped;
+      color: $dark-blue;
+      border-color: $dark-blue;
+
+      &:hover {
+        background-color: $dark-blue;
+        color: #fff;
+      }
+    }
+  }
+}

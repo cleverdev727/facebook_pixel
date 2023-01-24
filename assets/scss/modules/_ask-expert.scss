@@ -1,0 +1,86 @@
+.ask-expert {
+  &_section {
+    color: #514945;
+    display: flex;
+    padding: 0.8em;
+    flex-flow: column;
+
+    @media (min-width: 960px) {
+      flex-flow: row;
+      padding: 4em;
+      padding-bottom: 1em;
+    }
+  }
+
+  &_section-tan {
+    background: #f8f6f2;
+  }
+
+  &_col {
+    @media (min-width: 960px) {
+      padding-right: 2em;
+      max-width: 40em;
+    }
+  }
+
+  &_col-right {
+    @media (min-width: 960px) {
+      padding-left: 3em;
+    }
+  }
+
+  &_heading {
+    font-size: 40px;
+    line-height: 56px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    @media (min-width: 960px) {
+      font-size: 56px;
+      line-height: 64px;
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
+  }
+
+  &_desc {
+    font-size: 15px;
+    line-height: 25px;
+
+    @media (min-width: 960px) {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  &_desc-padding {
+    @media (min-width: 960px) {
+      max-width: 66%;
+    }
+  }
+
+  &_form {
+    width: 50%;
+  }
+
+  &-small {
+    font-size: 11px;
+    line-height: 14px;
+    display: inline-block;
+    padding-top: 1.5em;
+  }
+
+  &_desc-large {
+    font-size: 28px;
+    line-height: 36px;
+    padding-top: 1em;
+
+    @media (min-width: 960px) {
+      max-width: 45%;
+      font-size: 36px;
+      line-height: 48px;
+      padding-top: 0;
+    }
+  }
+}

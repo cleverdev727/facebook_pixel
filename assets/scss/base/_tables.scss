@@ -1,0 +1,49 @@
+// sass-lint:disable-block no-combinators
+
+table {
+  border-collapse: collapse;
+  margin-bottom: $base-spacing;
+  text-align: left;
+  width: 100%;
+}
+
+tfoot,
+thead {
+  border-bottom: 2px solid $base-border-color;
+}
+
+thead {
+  line-height: $small-line-height;
+  vertical-align: bottom;
+}
+
+tbody {
+  vertical-align: top;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid tint($base-border-color, 50%);
+}
+
+th {
+  font-weight: inherit;
+  min-width: $cart-column-min-width;
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: $small-spacing $gutter--base;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+td {
+  vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+.inline-icon--chevron,
+.icon--chevron {
+  display: inline;
+  fill: currentColor;
+  margin-left: 0.15em;
+  opacity: 0.8;
+  transition-property: color, fill, transform;
+  vertical-align: middle;
+  width: 10px;
+}
+
+.icon--chevron {
+  float: right;
+}
+
+.icon--chevron-left {
+  transform: rotate(180deg);
+}
+
+.inline-icon--chevron--up {
+  transform: rotate(180deg);
+  transform-origin: 50% 40%;
+}

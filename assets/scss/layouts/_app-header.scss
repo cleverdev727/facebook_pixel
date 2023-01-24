@@ -1,0 +1,25 @@
+$_app-header-line-height: 1;
+$_app-header-gutter--mobile: $gutter--base * 0.5;
+
+.cart-count {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  padding: 3px;
+  border-radius: 50%;
+  text-align: center;
+  right: -2px;
+  top: -10px;
+  background: #4e6282;
+  color: #ffffff;
+  font-size: 0.8rem;
+  line-height: 1;
+  font-weight: lighter;
+}
+
+html.disable-hover {
+  .has-sub-items {
+    cursor: none;
+    pointer-events: none;
+  }
+}

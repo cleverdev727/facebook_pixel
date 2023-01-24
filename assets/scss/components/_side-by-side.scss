@@ -1,0 +1,68 @@
+.side-by-side {
+  .showcase {
+    display: flex;
+    padding: 70px 0;
+    font-family: "Apercu Light";
+
+    .content {
+      width: 48%;
+      padding: 0 8%;
+      justify-content: center;
+    }
+
+    > :not(.content) {
+      flex: 1;
+      width: 52%;
+    }
+
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .v-parent {
+    padding: 35px 0;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .cta {
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+
+    &:hover {
+        background-color: #fff;
+    }
+}
+
+  @media screen and (max-width: $medium-screen) {
+    .v-parent {
+      padding: 18px 12px;
+    }
+
+    .showcase {
+      flex-direction: column !important;
+      padding: 40px 0;
+
+      .content {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      > :not(.content) {
+        width: 100%;
+      }
+
+      &.reverse {
+        .content {
+          margin-top: 20px;
+        }
+      }
+
+      &.reverse-mobile {
+        flex-direction: column-reverse !important;
+      }
+    }
+  }
+}

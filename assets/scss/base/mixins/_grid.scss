@@ -1,0 +1,11 @@
+@mixin grid {
+  @include max-width-container;
+  display: grid;
+  grid-column-gap: $gutter--small;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media (min-width: $large-screen) {
+    grid-column-gap: $gutter--base;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
